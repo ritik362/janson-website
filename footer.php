@@ -4,7 +4,7 @@
         <div class="container" data-aos="zoom-in">
             <div class="footer-content">
                 <div class="footer-col">
-                    <h3>Janson exporters</h3>
+                    <h3>Janson Exports</h3>
                     <p>Market leaders in architectural fittings, glass solutions, and space-saving innovations. We
                         integrate craftsmanship, modern design, and engineering precision.</p>
                     <div class="social-icons">
@@ -59,7 +59,7 @@
                         </li>
                         <li>
                             <i class="fas fa-envelope"></i>
-                            <span> adish@jansonexporters.com</span>
+                            <span>support@jansonexports.com</span>
                         </li>
                     </ul>
                 </div>
@@ -68,9 +68,9 @@
 
         <div class="footer-bottom">
             <div class="container">
-                <!-- <p>&copy; 2025 Janson exporters. All Rights Reserved. || Designed & Managed by Promopact Marketing India Pvt.
+                <!-- <p>&copy; 2025 Janson Exports. All Rights Reserved. || Designed & Managed by Promopact Marketing India Pvt.
                     Ltd.</p> -->
-                    <p>&copy; 2025 Janson exporters. All Rights Reserved. || Designed & Managed by <a href="https://promopact.in/" style="font-weight: 900; color: #fff;"><b>Promopact Marketing India Pvt. Ltd.</b></a></a></p>
+                    <p>&copy; 2025 Janson Exports. All Rights Reserved. || Designed & Managed by <a href="https://promopact.in/" style="font-weight: 900; color: #fff;"><b>Promopact Marketing India Pvt. Ltd.</b></a></a></p>
             </div>
         </div>
     </footer>
@@ -78,7 +78,7 @@
 
 
     <div class="social-fixed-bar">
-        <a href=" adish@jansonexporters.com" class="icon email" title="Email">
+        <a href="mailto:support@jansonexports.com" class="icon email" title="Email">
             <i class="fa-solid fa-envelope"></i>
         </a>
         <a href="tel:+91 99905 00537" class="icon phone" title="Phone">

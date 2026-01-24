@@ -106,7 +106,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            filter: brightness(0.3);
+            /* filter: brightness(0.3); */
             z-index: -1;
         }
 
@@ -824,10 +824,10 @@
     <!-- HERO SECTION -->
     <section class="about-hero-section">
         <video class="about-hero-video" autoplay muted loop playsinline>
-            <source src="https://assets.mixkit.co/videos/preview/mixkit-factory-metal-machine-close-up-42937-large.mp4" type="video/mp4">
+            <source src="video/Self Adhesive SS Tape.mp4" type="video/mp4">
         </video>
         
-        <div class="about-hero-content">
+        <!-- <div class="about-hero-content">
             <h5 class="about-hero-subtitle">Our Story</h5>
             <h1 class="about-hero-title">Crafting Excellence <span>Since 2005</span></h1>
             <p class="about-hero-description">
@@ -835,10 +835,10 @@
                 quality, and unwavering commitment. Our journey is defined by relentless pursuit of perfection in every 
                 product we manufacture.
             </p>
-            <a href="#mission" class="about-cta-btn about-cta-btn-primary">
+            <a href="contact.php" class="about-cta-btn about-cta-btn-primary">
                 Explore Our Journey <i class="fas fa-arrow-right"></i>
             </a>
-        </div>
+        </div> -->
         
         <div class="about-scroll-indicator">
             Scroll Down
@@ -850,7 +850,7 @@
     <section class="about-mission-section" id="mission">
         <div class="about-mission-container">
             <div class="about-mission-image">
-                <img src="glass-posrtion/image copy 3.png" alt="Our Manufacturing Facility">
+                <img src="logo-4.png" alt="Our Manufacturing Facility">
             </div>
             
             <div class="about-mission-content">
@@ -940,7 +940,7 @@
                     </p>
                 </div>
                 
-                <div class="about-value-card">
+                <!-- <div class="about-value-card">
                     <div class="about-value-icon">
                         <i class="fas fa-lightbulb"></i>
                     </div>
@@ -948,10 +948,10 @@
                     <p class="about-value-desc">
                         We constantly push boundaries, researching and developing new solutions 
                         to stay ahead of industry trends.
-                    </p>
+                    </p> -->
                 </div>
                 
-                <div class="about-value-card">
+                <!-- <div class="about-value-card">
                     <div class="about-value-icon">
                         <i class="fas fa-users"></i>
                     </div>
@@ -960,13 +960,13 @@
                         Our diverse team of experts collaborates seamlessly to deliver exceptional 
                         results through shared knowledge and passion.
                     </p>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
 
     <!-- TEAM SECTION -->
-    <section class="about-team-section">
+    <!-- <section class="about-team-section">
         <div class="about-team-container">
             <div class="about-team-header">
                 <h2 class="about-team-title">Meet Our Leadership</h2>
@@ -986,9 +986,9 @@
                             Drives innovation and strategic growth.
                         </p>
                         <div class="about-team-social">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="contact.php"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="contact.php"><i class="fab fa-twitter"></i></a>
+                            <a href="contact.php"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1003,9 +1003,9 @@
                             and R&D innovation.
                         </p>
                         <div class="about-team-social">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="contact.php"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="contact.php"><i class="fab fa-twitter"></i></a>
+                            <a href="contact.php"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1020,15 +1020,15 @@
                             and quality control processes.
                         </p>
                         <div class="about-team-social">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="contact.php"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="contact.php"><i class="fab fa-twitter"></i></a>
+                            <a href="contact.php"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- TIMELINE SECTION -->
     <section class="about-timeline-section">

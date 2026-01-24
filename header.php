@@ -23,7 +23,7 @@
             <div class="container top-bar-content">
                 <div class="contact-info">
                     <span><i class="fas fa-phone"></i> +91 99905 00537</span>
-                    <span><i class="fas fa-envelope"></i> adish@jansonexporters.com</span>
+                    <span><i class="fas fa-envelope"></i> support@jansonexports.com</span>
                 </div>
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -48,7 +48,7 @@
                             <a href="#">Products <i class="fas fa-chevron-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="slim-partition.php">Slim Partitions</a></li>
-                                <!-- <li><a href="sliding-partition.php">Sliding Partition</a></li>
+                                <li><a href="sliding-partition.php">Sliding Partition</a></li>
                                 <li><a href="shower-partition.php">Shower Partition</a></li>
                                 <li><a href="glass-partition.php">Glass Partition</a></li>
                                 <li><a href="floor-spring.php">Floor Spring</a></li>
@@ -59,15 +59,15 @@
                                 <li><a href="glass-railing.php">Glass Railing</a></li>
                                 <li><a href="spaider-fitting.php">Spaider Fitting</a></li>
                                 <li><a href="patch-fitting.php">Patch Fitting</a></li>
-                                <li><a href="telescopic-channel.php">Telescopic Channel</a></li> -->
+                                <li><a href="telescopic-channel.php">Telescopic Channel</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Industrial</a></li>
+                        <li><a href="">Industrial</a></li>
                         <li><a href="about.php">About Us</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="blog.php">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Portfolio</a></li>
+                        <!-- <li><a href="#">Projects</a></li> -->
+                        <!-- <li><a href="#">Blog</a></li> -->
+                        <li><a href="contact.php">Contact Us</a></li>
+                        <!-- <li><a href="#">Portfolio</a></li> -->
                     </ul>
 
                     <!-- <div class="search-cart">

@@ -1276,7 +1276,7 @@ flex-direction:column;
             <div class="janson-img-holder">
                 <img src="slim-partition/2.jpg" alt="Telescopic Sliding">
             </div>
-            <p class="janson-label">TELESCOPIC SLIDING</p>
+            <p class="janson-label">SYNCHRO SLIDING PARTITION</p>
         </div>
 
         <!-- CENTER IMAGE -->
@@ -1290,7 +1290,7 @@ flex-direction:column;
             <div class="janson-img-holder big-img">
                 <img src="slim-partition/1 (1).jpg" alt="Synchro Sliding">
             </div>
-            <p class="janson-label">SYNCHRO SLIDING</p>
+            <p class="janson-label">INVISIBLE DOOR PARTITION</p>
 
             <div class="janson-bni-badge">BNI MEMBER</div>
         </div>
@@ -1326,7 +1326,7 @@ flex-direction:column;
             Each partition is bespoke-designed to adapt to design intent and spatial requirements, offering a sophisticated partitioning solution for both sprawling projects and compact interiors. Customer-centricity enables us to work alongside the client in bringing their vision forward and make certain that each delivery lives up to our promise of excellence and timely execution.
         </p>
 
-        <a href="#" class="slim-discuss-link">
+        <a href="contact.php" class="slim-discuss-link">
             Request a Quote
             <div class="slim-line"></div>
         </a>
@@ -1341,7 +1341,7 @@ flex-direction:column;
             <!-- RIGHT CONTENT -->
             <div class="slim-right-content">
                 <h5>KEY FEATURES</h5>
-                <h2>Premium Partition Solutions</h2>
+                <h2>Synchro Sliding Partition</h2>
                 <p>
                     Our slim partitions feature a slim and seamless aluminum profile system with various options for glass and finish. We offer custom dimensions and configurations to meet your specific requirements.
                 </p>
@@ -1368,29 +1368,29 @@ flex-direction:column;
         <h2 class="slim-prod-title">OUR SLIM PARTITION PRODUCTS</h2>
         <div class="slim-prod-grid">
             <!-- CARD 1 -->
-            <div class="slim-prod-card" onclick="slimProdOpenPopup('Glass Slim Partition','Modern frameless slim glass partition for luxury interiors. Perfect for offices and commercial spaces.','slim-partition/6.jpg')" data-aos="zoom-in"> 
+            <div class="slim-prod-card" onclick="slimProdOpenPopup('Telescopic Sliding Partition',' A modern, space-saving solution designed to divide large areas into multiple sections with ease. It features a smooth sliding mechanism that allows quick and flexible opening and closing. Ideal for conference halls, banquet rooms, hotels, offices, and commercial spaces, it offers flexibility, sound insulation, and a clean, elegant appearance.','slim-partition/6.jpg')" data-aos="zoom-in"> 
                 <img class="slim-prod-card-img" src="slim-partition/6.jpg">
                 <div class="slim-prod-card-info">
-                    <h3>Glass Slim Partition</h3>
+                    <h3>Telescopic Sliding Partition</h3>
                     <p>Modern frameless glass design</p>
                 </div>
             </div>
 
             <!-- CARD 2 -->
-            <div class="slim-prod-card" onclick="slimProdOpenPopup('Aluminium Slim Partition','Strong aluminium slim partition with matte finishing. Durable and elegant solution.','slim-partition/12.jpg')" data-aos="zoom-in">
+            <div class="slim-prod-card" onclick="slimProdOpenPopup('Bathroom Partition','A practical and durable solution designed to create privacy and organize bathroom spaces efficiently. It is made from moisture-resistant and easy-to-maintain materials, ensuring long-lasting performance in wet areas. Commonly used in malls, offices, schools, hotels, and commercial washrooms, bathroom partitions provide a clean, hygienic, and modern look while maximizing space and functionality.','slim-partition/12.jpg')" data-aos="zoom-in">
                 <img class="slim-prod-card-img" src="slim-partition/12.jpg">
                 <div class="slim-prod-card-info">
-                    <h3>Aluminium Slim Partition</h3>
-                    <p>Premium aluminium frame</p>
+                    <h3>Bathroom Partition</h3>
+                    <p>Premium Bathroom partition</p>
                 </div>
             </div>
 
             <!-- CARD 3 -->
-            <div class="slim-prod-card" onclick="slimProdOpenPopup('Sliding Slim Partition','Space-saving sliding partition for modern interiors. Perfect for flexible spaces.','slim-partition/WhatsApp Image 2025-12-24 at 6.30.18 PM.jpeg')" data-aos="zoom-in">
-                <img class="slim-prod-card-img" src="slim-partition/WhatsApp Image 2025-12-24 at 6.30.18 PM.jpeg">
+            <div class="slim-prod-card" onclick="slimProdOpenPopup('Wardrobe Profiles Partition','Wardrobe Profiles are specially designed aluminum or metal profiles used to enhance the structure, functionality, and appearance of modern wardrobes. They provide smooth support for sliding or hinged doors, ensure durability, and add a sleek, contemporary finish. Widely used in residential and commercial interiors, wardrobe profiles improve usability while giving wardrobes a premium and well-organized look.','slim-partition/5.jpg')" data-aos="zoom-in">
+                <img class="slim-prod-card-img" src="slim-partition/5.jpg">
                 <div class="slim-prod-card-info">
-                    <h3>Sliding Slim Partition</h3>
-                    <p>Smooth and elegant sliding</p>
+                    <h3>Wardrobe Profiles</h3>
+                    <p>Wardrobe Profiles give wardrobes a clean and modern finish.</p>
                 </div>
             </div>
         </div>
@@ -1404,7 +1404,7 @@ flex-direction:column;
             <div class="slim-prod-popup-content">
                 <h2 id="slimProdPopupTitle"></h2>
                 <p id="slimProdPopupDesc"></p>
-                <a href="#" class="slim-prod-btn">Enquire Now</a>
+                <a href="contact.php" class="slim-prod-btn">Enquire Now</a>
             </div>
         </div>
     </div>
@@ -1417,7 +1417,7 @@ flex-direction:column;
                 As an established Slim Partition exporter, we have built a strong global presence by providing innovative and reliable partition solutions to international clients. Our export-grade partitions are designed to meet various global standards. In our products, you will find quality consistency, aesthetic precision, and on-time delivery.
             </p>
             
-            <a href="#" class="slim-fund-link">
+            <a href="contact.php" class="slim-fund-link">
                 International Enquiries
                 <div class="slim-fund-line"></div>
             </a>
@@ -1463,14 +1463,14 @@ flex-direction:column;
   <div class="product-images">
     <span class="stock">IN STOCK</span>
 
-    <img src="slim-partition/8.jpg" class="main-img" id="mainImg">
+    <img src="slim-partition/7.jpg" class="main-img" id="mainImg">
 
     <div class="thumbs">
-      <img src="slim-partition/8.jpg" class="active" data-index="0" onclick="changeProduct(this)">
-      <img src="slim-partition/9.jpg" data-index="1" onclick="changeProduct(this)">
-      <img src="slim-partition/10.jpg" data-index="2" onclick="changeProduct(this)">
-      <img src="slim-partition/11.jpg" data-index="3" onclick="changeProduct(this)">
-      <img src="slim-partition/12.jpg" data-index="4" onclick="changeProduct(this)">
+      <img src="slim-partition/7.jpg" class="active" data-index="0" onclick="changeProduct(this)">
+      <img src="slim-partition/8.jpg" data-index="1" onclick="changeProduct(this)">
+      <img src="slim-partition/9.jpg" data-index="2" onclick="changeProduct(this)">
+      <img src="slim-partition/10.jpg" data-index="3" onclick="changeProduct(this)">
+      <img src="slim-partition/11.jpg" data-index="4" onclick="changeProduct(this)">
     </div>
   </div>
 
@@ -1485,7 +1485,7 @@ flex-direction:column;
     <div class="rating" id="pRating">★★★★★ (4.9)</div>
 
     <p class="desc" id="pDesc">
-      Premium quality running shoes designed for durability and comfort.
+      A sleek, space-saving door solution that slides neatly into the wall for a clean and modern look.
     </p>
 
     <div class="sizes" id="pSizes">
@@ -1512,7 +1512,7 @@ flex-direction:column;
 
         <!-- LEFT IMAGE -->
         <div class="janson-feature-image">
-            <img src="slim-partition/11.jpg" alt="Slim Partition Office">
+            <img src="slim-partition/13.jpg" alt="Slim Partition Office">
             <span class="corner tl"></span>
             <span class="corner tr"></span>
             <span class="corner bl"></span>
@@ -1583,7 +1583,7 @@ flex-direction:column;
         <div class="slim-project-container">
             <div class="slim-project-left">
                 <div class="slim-project-subtitle">CORPORATE INSTALLATION</div>
-                <h2 class="slim-project-title">Tech Park Office Complex</h2>
+                <h2 class="slim-project-title">Office Fix Partition</h2>
                 <p class="slim-project-text">
                     A major IT company needed to create multiple conference rooms and collaborative spaces within their open-plan office. Our slim partitions provided the perfect solution, allowing natural light to flow while creating private areas.
                 </p>
@@ -1602,7 +1602,7 @@ flex-direction:column;
             </div>
             
             <div class="slim-project-right">
-                <img src="slim-partition/13.jpg" alt="Office Partition Project">
+                <img src="slim-partition/14.jpg" alt="Office Partition Project">
             </div>
         </div>
     </section>
@@ -1685,59 +1685,63 @@ flex-direction:column;
  
 const products = [
   {
+    img:"slim-partition/7.jpg",
+title:"Pocket Door",
+category:"Sliding Door System",
+price:"$199",
+rating:"★★★★★ (4.9)",
+desc:"A sleek, space-saving door solution that slides neatly into the wall for a clean and modern look.",
+sizes:["Standard","Custom"],
+activeSize:"Custom",
+colors:["#1e90ff","#c6a98c","#ffffff"]
+
+  },
+  {
     img:"slim-partition/8.jpg",
-    title:"NIKE WASP 8",
-    category:"Running Shoes",
-    price:"$199",
-    rating:"★★★★★ (4.9)",
-    desc:"Premium quality running shoes designed for durability and comfort.",
-    sizes:["7","8","9","9.5","10","11.5"],
-    activeSize:"11.5",
-    colors:["#1e90ff","#c6a98c","#ffffff"]
+title:"Telescopic Sliding Door",
+category:"Sliding Door System",
+price:"$179",
+rating:"★★★★☆ (4.6)",
+desc:"A smart space-saving door system that allows multiple panels to slide smoothly for wider openings.",
+sizes:["Standard","Custom"],
+activeSize:"Custom",
+colors:["#ff3b3b","#000000"]
   },
   {
     img:"slim-partition/9.jpg",
-    title:"NIKE STORM X",
-    category:"Sports Shoes",
-    price:"$179",
-    rating:"★★★★☆ (4.6)",
-    desc:"Lightweight sports shoes made for speed and flexibility.",
-    sizes:["6","7","8","9","10"],
-    activeSize:"9",
-    colors:["#ff3b3b","#000000"]
+title:"Swing Door with Outer Frame & Hinges",
+category:"Door System",
+price:"$229",
+rating:"★★★★★ (5.0)",
+desc:"A sturdy and elegant swing door system with an outer frame and smooth hinges for reliable performance.",
+sizes:["Standard","Custom"],
+activeSize:"Custom",
+colors:["#ffffff","#1e90ff"]
+
   },
   {
     img:"slim-partition/10.jpg",
-    title:"NIKE AIR PRO",
-    category:"Training Shoes",
-    price:"$229",
-    rating:"★★★★★ (5.0)",
-    desc:"High-performance training shoes with premium cushioning.",
-    sizes:["8","9","10","11"],
-    activeSize:"10",
-    colors:["#ffffff","#1e90ff"]
+title:"Telescopic Sliding Door Partition",
+category:"Partition System",
+price:"$189",
+rating:"★★★★☆ (4.7)",
+desc:"A flexible, space-efficient partition system that smoothly slides to create or open multiple sections.",
+sizes:["Standard","Custom"],
+activeSize:"Custom",
+colors:["#000000","#ffcc00"]
+
   },
   {
     img:"slim-partition/11.jpg",
-    title:"NIKE SPEED PRO",
-    category:"Running Shoes",
-    price:"$189",
-    rating:"★★★★☆ (4.7)",
-    desc:"Ultra-light shoes built for long-distance running.",
-    sizes:["7","8","9","10","11"],
-    activeSize:"9",
-    colors:["#000000","#ffcc00"]
-  },
-  {
-    img:"slim-partition/12.jpg",
-    title:"NIKE MAX AIR",
-    category:"Casual Shoes",
-    price:"$159",
-    rating:"★★★★☆ (4.5)",
-    desc:"Stylish casual shoes with everyday comfort.",
-    sizes:["6","7","8","9","10"],
-    activeSize:"8",
-    colors:["#ffffff","#1e90ff"]
+title:"Synchro Sliding Partition",
+category:"Partition System",
+price:"$159",
+rating:"★★★★☆ (4.5)",
+desc:"A synchronized sliding partition system designed for smooth movement and efficient space division.",
+sizes:["Standard","Custom"],
+activeSize:"Custom",
+colors:["#ffffff","#1e90ff"]
+
   }
 ];
 

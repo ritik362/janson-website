@@ -13,8 +13,8 @@
                         <h1>Architectural Fittings & Space Solutions</h1>
                         <p>Integrating craftsmanship, modern design, and engineering precision to enhance the appearance
                             and functionality of spaces.</p>
-                        <a href="#" class="btn">Explore Products</a>
-                        <a href="#" class="btn btn-outline">Contact Us</a>
+                        <a href="contact.php" class="btn">Explore Products</a>
+                        <a href="contact.php" class="btn btn-outline">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -25,8 +25,8 @@
                         <h1>Premium Quality Materials</h1>
                         <p>Superior materials and finishes that stand the test of time for all your architectural needs.
                         </p>
-                        <a href="#" class="btn">Our Products</a>
-                        <a href="#" class="btn btn-outline">Learn More</a>
+                        <a href="contact.php" class="btn">Our Products</a>
+                        <a href="contact.php" class="btn btn-outline">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -37,8 +37,8 @@
                         <h1>Premium Quality Materials</h1>
                         <p>Superior materials and finishes that stand the test of time for all your architectural needs.
                         </p>
-                        <a href="#" class="btn">Our Products</a>
-                        <a href="#" class="btn btn-outline">Learn More</a>
+                        <a href="contact.php" class="btn">Our Products</a>
+                        <a href="contact.php" class="btn btn-outline">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -50,8 +50,8 @@
                         <h1>Premium Quality Materials</h1>
                         <p>Superior materials and finishes that stand the test of time for all your architectural needs.
                         </p>
-                        <a href="#" class="btn">Our Products</a>
-                        <a href="#" class="btn btn-outline">Learn More</a>
+                        <a href="contact.php" class="btn">Our Products</a>
+                        <a href="contact.php" class="btn btn-outline">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -62,8 +62,8 @@
                         <h1>Premium Quality Materials</h1>
                         <p>Superior materials and finishes that stand the test of time for all your architectural needs.
                         </p>
-                        <a href="#" class="btn">Our Products</a>
-                        <a href="#" class="btn btn-outline">Learn More</a>
+                        <a href="contact.php" class="btn">Our Products</a>
+                        <a href="contact.php" class="btn btn-outline">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -76,8 +76,8 @@
                     <div class="slide-text">
                         <h1>Custom Solutions for Every Project</h1>
                         <p>Tailor-made solutions for various projects, from residential to commercial applications.</p>
-                        <a href="#" class="btn">Request Quote</a>
-                        <a href="#" class="btn btn-outline">Our Projects</a>
+                        <a href="contact.php" class="btn">Request Quote</a>
+                        <a href="contact.php" class="btn btn-outline">Our Projects</a>
                     </div>
                 </div>
             </div> -->
@@ -102,7 +102,7 @@
         <div class="about-ganpati-container"  data-aos="fade-up">
             <!-- Section Title -->
             <div class="about-ganpati-title" data-aos="fade-up">
-                <h2>About Janson exporters</h2>
+                <h2>About Janson Exports</h2>
                 <div class="about-ganpati-underline"></div>
             </div>
 
@@ -110,7 +110,7 @@
                 <!-- Text Section -->
                 <div class="about-ganpati-text" data-aos="fade-right">
                     <p>
-                        At <strong>Janson exporters</strong>, we craft possibilities rather than just products.
+                        At <strong>Janson Exports</strong>, we craft possibilities rather than just products.
                         We are a reputable brand in architectural fittings, glass systems, and space solutions
                         that combine engineering precision with elegant design, having been founded with the
                         goal of redefining architectural excellence.
@@ -169,8 +169,8 @@
                 </div>
 
                 <div class="about-text">
-                    <h2>Janson exporters</h2>
-                    <p>Janson exporters is a market leader in architectural fittings, solutions in glass, and space
+                    <h2>Janson Exports</h2>
+                    <p>Janson Exports is a market leader in architectural fittings, solutions in glass, and space
                         saving. We integrate craftsmanship, modern design, and engineering precision to design products
                         that enhance the appearance and functionality of spaces.</p>
                     <p>Trust Architects, interior designers, builders, and home owners have placed their trust in us
@@ -272,25 +272,38 @@
             <div class="product-grid">
                 <div class="product-card">
                     <div class="product-img">
-                        <img src="img2/img1.png" alt="Slim Partition">
+                        <img src="glass-realing/Glass-Balcony-Railing-Systems-07_2023-06-20-215800_baxe.webp" alt="Slim Partition">
                     </div>
                     <div class="product-info">
-                        <h3>Spiders Fitting</h3>
-                        <p>The offered product is designed and manufactured in compliance with international quality
-                            standards using optimum quality raw material and modern technology under the supervision of
-                            quality controllers at vendors end.</p>
+                        <h3>Glass Railing for Stairs</h3>
+                        <p>This glass railing is used for staircases and balconies.
+It is strong, safe, and gives a modern look. Suitable for
+residential and commercial buildings.</p>
                     </div>
                 </div>
 
                 <div class="product-card">
                     <div class="product-img">
-                        <img src="img2/Gemini_Generated_Image_71u19m71u19m71u1.png" alt="Shower Partition">
+                        <img src="GLASS-HANDLE/Factory-Price-Stainless-Steel-Shower-Glass-Door-Handle-for-Glass-Door-Pull-Handle.avif" alt="Shower Partition">
                     </div>
                     <div class="product-info">
-                        <h3>Patch Fittings</h3>
-                        <p>Our range of products include floor spring -frame door system, over and side panel connecting
-                            patch with pivot, small l over panel & side panel patch fitting, wall to glass connecting
-                            patch, quadruple patch with fin and connector with fin.</p>
+                        <h3>Steel Glass Door Pull Handle</h3>
+                        <p> Stainless Steel Glass Door Pull Handle is designed for shower
+cabins and frameless glass doors. Made from high-quality stainless steel,
+it offers strong grip, corrosion resistance, and long-lasting durability.</p>
+                    </div>
+                </div>
+
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="glass-partitions/image copy 3.png" alt="Glass Handle">
+                    </div>
+                    <div class="product-info">
+                        <h3>Aluminium Frame Glass Partition</h3>
+                        <p>Our Aluminium Frame Glass Partition System is designed to create
+modern and elegant spaces with maximum transparency and durability.
+</p>
                     </div>
                 </div>
 
@@ -299,10 +312,11 @@
                         <img src="img2/Gemini_Generated_Image_pn85ahpn85ahpn85.png" alt="Glass Partition">
                     </div>
                     <div class="product-info">
-                        <h3>Glass Railing</h3>
-                        <p>Prominent & Leading Manufacturer from New Delhi, we offer glass railing spigot, glass railing
-                            stud and spigot, railing stud for glass railing, glass railing round spigot, glass to
-                            handrail square connector and aluminium glass railing.</p>
+                        <h3>Stainless Steel Cube Clamp</h3>
+                        <p>Our Stainless Steel Cube Clamp is designed to securely connect glass
+and wooden panels with strong support and stability. Made from
+high-quality stainless steel with a premium finish, it offers excellent
+durability, corrosion resistance, and long-lasting performance.</p>
                     </div>
                 </div>
 
@@ -311,40 +325,30 @@
                         <img src="img2/Gemini_Generated_Image_x30zbjx30zbjx30z.png" alt="Floor Spring">
                     </div>
                     <div class="product-info">
-                        <h3>Furniture Hardware</h3>
-                        <p>Manufacturer of a wide range of products which include wardrobe sliding fitting, telescopic
-                            sliding one fix two sliding, telescopic sliding- one fix four sliding, telescopic channel
-                            ms, 72grm, hydraulic clip on soft closing hinge and stainless steel telescopic channel -
-                            ball bearing slides.</p>
+                        <h3>Multi-Arm Spider Fitting</h3>
+                        <p>This Multi-Arm Spider Fitting is used to fix glass panels in buildings.
+It is strong, durable, and easy to install. Suitable for offices,
+malls, showrooms, and commercial projects.</p>
                     </div>
                 </div>
 
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="img2/Gemini_Generated_Image_pjccufpjccufpjcc.png" alt="Glass Handle">
-                    </div>
-                    <div class="product-info">
-                        <h3>Glass Shower</h3>
-                        <p>With our rich industrial experience in this domain, our exporters is providing Glass To
-                            Glass 180 Hinge.</p>
-                    </div>
-                </div>
+                
 
                 <div class="product-card">
                     <div class="product-img">
                         <img src="img2/Gemini_Generated_Image_uywzf2uywzf2uywz.png" alt="Shower Hinge">
                     </div>
                     <div class="product-info">
-                        <h3>Office Sliding</h3>
-                        <p>Our product range includes a wide range of wall to track connector, sliding door stopper,
-                            glass sliding door roller, glass sliding door aluminum track, glass sliding door handle and
-                            wooden sliding system.</p>
+                        <h3>Manual Caulking Gun</h3>
+                        <p>This sealant gun is used to apply silicone and adhesives easily.
+It is strong, durable, and comfortable to use. Suitable for
+homes, workshops, and commercial projects.</p>
                     </div>
                 </div>
             </div>
 
             <div style="text-align: center; margin-top: 40px;">
-                <a href="#" class="btn">View All Products</a>
+                <a href="contact.php" class="btn">View All Products</a>
             </div>
         </div>
     </section>
@@ -441,7 +445,7 @@
                     <p>In our opinion, good design should also be responsible. This is why our products can be durable,
                         and we do not require such frequent replacement and waste.</p>
                     <p>Some of our fittings are recyclable, and our designs are energy-efficient and eco-friendly.</p>
-                    <p>The Janson exporters will not only provide fittings that do not disrespect your space but also
+                    <p>The Janson Exports will not only provide fittings that do not disrespect your space but also
                         the environment.</p>
                 </div>
                 <div class="sustainability-img">

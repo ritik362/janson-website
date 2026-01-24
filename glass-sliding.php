@@ -4,16 +4,15 @@
 
     <style>
         :root {
-            --primary-color: #121212;
-            --primary-light: #1E1E1E;
-            --secondary-color: #C6A98C;
-            --text-color: #E0E0E0;
-            --text-heading: #FFFFFF;
-            --light-color: #FFFFFF;
-            --bg-light: #1E1E1E;
-            --border-color: #333333;
+            --primary-color: #121212; /* Main Dark Background (Off-Black) */
+            --primary-light: #1E1E1E; /* Lighter Dark (For Cards/Sections) */
+            --secondary-color: #C6A98C; /* Elegant Beige/Tan Accent */
+            --text-color: #E0E0E0; /* Main Body Text (Soft Off-white) */
+            --text-heading: #FFFFFF; /* Headings (Pure White) */
+            --light-color: #FFFFFF; /* Pure White */
+            --bg-light: #1E1E1E; /* Replacing the light bg variable */
+            --border-color: #333333; /* Subtle Borders for separation */
             --font-primary: 'Poppins', sans-serif;
-            /* --slidingglass-container-width: 1400px; */
             --border-radius-main: 5px;
             --shadow-light: 0 4px 15px rgba(0, 0, 0, 0.2);
             --shadow-medium: 0 8px 25px rgba(0, 0, 0, 0.4); 
@@ -33,22 +32,22 @@
             color: var(--text-color);
         }
 
-        /* HERO SECTION */
-        .slidingglass-hero-section {
+        /* HERO SECTION (full image) - UNIQUE CLASS */
+        .glass-sliding-hero-section {
             position: relative;
             width: 100%;
-            height: 360px;
+            height: 760px;
             overflow: hidden;
+            margin-top: -90px;
         }
 
-        .slidingglass-hero-section img {
+        .glass-sliding-hero-section img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            filter: brightness(0.5);
         }
 
-        .slidingglass-hero-content {
+        .glass-sliding-hero-content {
             position: absolute;
             inset: 0;
             display: flex;
@@ -58,7 +57,7 @@
             color: var(--light-color);
         }
 
-        .slidingglass-hero-content h5 {
+        .glass-sliding-hero-content h5 {
             font-size: 14px;
             letter-spacing: 2px;
             margin-bottom: 8px;
@@ -66,7 +65,7 @@
             color: var(--secondary-color);
         }
 
-        .slidingglass-hero-content h1 {
+        .glass-sliding-hero-content h1 {
             font-size: 48px;
             font-weight: 700;
             max-width: 600px;
@@ -74,48 +73,48 @@
             color: var(--text-heading);
         }
 
-        /* CONTENT BOX */
-        .slidingglass-content-box {
+        /* WHITE CONTENT BOX - UNIQUE CLASS */
+        .glass-sliding-content-box {
             background: var(--primary-light);
             width: 100%;
             padding: 60px 40px;
-            margin-top: -60px;
+            margin-top: -81px;
             position: relative;
             border-top: 1px solid var(--border-color);
         }
 
-        .slidingglass-content-wrapper {
-            max-width: var(--slidingglass-container-width);
+        .glass-sliding-content-wrapper {
             margin: auto;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 50px;
         }
 
-        .slidingglass-content-title {
+        .glass-sliding-content-title {
             font-size: 34px;
             font-weight: 700;
             color: var(--text-heading);
         }
 
-        .slidingglass-content-text {
+        .glass-sliding-content-text {
             font-size: 15px;
             color: var(--text-color);
         }
 
         @media(max-width:900px) {
-            .slidingglass-hero-content h1 {
+            .glass-sliding-hero-content h1 {
                 font-size: 32px;
             }
 
-            .slidingglass-content-wrapper {
+            .glass-sliding-content-wrapper {
                 grid-template-columns: 1fr;
             }
         }
 
-        /* BENEFITS SECTION */
-        .slidingglass-benefits-wrapper {
-            max-width: var(--slidingglass-container-width);
+
+        /* BENEFITS SECTION - UNIQUE CLASS */
+        .glass-sliding-benefits-wrapper {
+            /* max-width: 1400px; */
             margin: auto;
             display: flex;
             align-items: center;
@@ -125,8 +124,8 @@
             background: var(--primary-color);
         }
 
-        /* CARD STYLING */
-        .slidingglass-card {
+        /* CARD STYLING - UNIQUE CLASS */
+        .glass-sliding-card {
             width: 380px;
             background: var(--primary-light);
             padding: 55px 40px;
@@ -138,17 +137,17 @@
             transition: transform var(--transition-speed);
         }
 
-        .slidingglass-card:hover {
+        .glass-sliding-card:hover {
             transform: translateY(-5px);
             box-shadow: var(--shadow-medium);
         }
 
-        .slidingglass-right-card {
+        .glass-sliding-right-card {
             border: 2px solid var(--secondary-color);
         }
 
-        /* TAG LABEL */
-        .slidingglass-tag {
+        /* TAG LABEL - UNIQUE CLASS */
+        .glass-sliding-tag {
             position: absolute;
             top: 0;
             left: 0;
@@ -160,71 +159,72 @@
             font-weight: 600;
         }
 
-        /* ICON */
-        .slidingglass-icon {
+        /* ICON - UNIQUE CLASS */
+        .glass-sliding-icon {
             width: 65px;
             margin: 25px auto 20px auto;
             opacity: 0.9;
         }
 
-        /* TITLE */
-        .slidingglass-card-title {
+        /* TITLE - UNIQUE CLASS */
+        .glass-sliding-card-title {
             font-size: 22px;
             color: var(--text-heading);
             font-weight: 700;
             margin-bottom: 15px;
         }
 
-        .slidingglass-card p {
+        .glass-sliding-card p {
             font-size: 14.5px;
             color: var(--text-color);
             line-height: 1.65;
         }
 
-        /* PLUS SIGN */
-        .slidingglass-plus {
+        /* PLUS SIGN - UNIQUE CLASS */
+        .glass-sliding-plus {
             font-size: 48px;
             font-weight: 300;
             color: var(--secondary-color);
             margin-top: -20px;
         }
 
-        /* DOTTED LINE */
-        .slidingglass-dotted-line {
+        /* DOTTED LINE - UNIQUE CLASS */
+        .glass-sliding-dotted-line {
             height: 280px;
             border-right: 3px dotted var(--secondary-color);
             margin-right: -20px;
         }
 
         @media(max-width:1200px) {
-            .slidingglass-benefits-wrapper {
+            .glass-sliding-benefits-wrapper {
                 flex-direction: column;
             }
 
-            .slidingglass-plus,
-            .slidingglass-dotted-line {
+            .glass-sliding-plus,
+            .glass-sliding-dotted-line {
                 display: none;
             }
         }
 
-        /* MAIN SECTION */
-        .slidingglass-main-section {
-            max-width: var(--slidingglass-container-width);
+
+        /* MAIN SECTION - UNIQUE CLASS */
+        .glass-sliding-main-section {
+            /* max-width: 1400px; */
             margin: auto;
             padding: 70px 85px;
             background: var(--primary-color);
         }
 
-        /* MAIN TITLE */
-        .slidingglass-main-section h1 {
+        /* MAIN TITLE - UNIQUE CLASS */
+        .glass-sliding-main-section h1 {
             font-size: 36px;
             color: var(--text-heading);
             font-weight: 700;
             margin-bottom: 25px;
         }
 
-        /* TOP PARAGRAPH */
-        .slidingglass-main-section p {
+        /* TOP PARAGRAPH - UNIQUE CLASS */
+        .glass-sliding-main-section p {
             font-size: 16px;
             color: var(--text-color);
             width: 95%;
@@ -233,8 +233,8 @@
             margin-bottom: 25px;
         }
 
-        /* DISCUSS LINK */
-        .slidingglass-discuss-link {
+        /* DISCUSS LINK - UNIQUE CLASS */
+        .glass-sliding-discuss-link {
             display: inline-flex;
             align-items: center;
             gap: 15px;
@@ -247,25 +247,25 @@
             transition: color var(--transition-speed);
         }
 
-        .slidingglass-discuss-link:hover {
+        .glass-sliding-discuss-link:hover {
             color: var(--text-heading);
         }
 
-        .slidingglass-discuss-link .slidingglass-line {
+        .glass-sliding-discuss-link .glass-sliding-line {
             width: 120px;
             border-bottom: 1px solid var(--secondary-color);
         }
 
-        /* IMAGE + CONTENT ROW */
-        .slidingglass-row {
+        /* IMAGE + CONTENT ROW - UNIQUE CLASS */
+        .glass-sliding-row {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
             gap: 50px;
         }
 
-        /* LEFT IMAGE */
-        .slidingglass-left-img img {
+        /* LEFT IMAGE - UNIQUE CLASS */
+        .glass-sliding-left-img img {
             width: 730px;
             height: 487px;
             object-fit: cover;
@@ -273,13 +273,13 @@
             border: 1px solid var(--border-color);
         }
 
-        /* RIGHT CONTENT */
-        .slidingglass-right-content {
+        /* RIGHT CONTENT - UNIQUE CLASS */
+        .glass-sliding-right-content {
             flex: 1;
             padding-top: 10px;
         }
 
-        .slidingglass-right-content h5 {
+        .glass-sliding-right-content h5 {
             font-size: 13px;
             color: var(--secondary-color);
             letter-spacing: 1px;
@@ -287,14 +287,14 @@
             text-transform: uppercase;
         }
 
-        .slidingglass-right-content h2 {
+        .glass-sliding-right-content h2 {
             font-size: 30px;
             color: var(--text-heading);
             margin-bottom: 20px;
             font-weight: 700;
         }
 
-        .slidingglass-right-content p {
+        .glass-sliding-right-content p {
             width: 100%;
             margin-bottom: 18px;
             line-height: 1.8;
@@ -302,14 +302,14 @@
             color: var(--text-color);
         }
 
-        /* BULLETS */
-        .slidingglass-ul {
+        /* BULLETS - UNIQUE CLASS */
+        .glass-sliding-ul {
             padding-left: 20px;
             margin-top: 10px;
             list-style: disc;
         }
 
-        .slidingglass-ul li {
+        .glass-sliding-ul li {
             margin-bottom: 8px;
             font-size: 15px;
             color: var(--text-color);
@@ -318,33 +318,34 @@
 
         /* RESPONSIVE */
         @media(max-width:1100px) {
-            .slidingglass-row {
+            .glass-sliding-row {
                 flex-direction: column;
             }
 
-            .slidingglass-left-img img {
+            .glass-sliding-left-img img {
                 width: 100%;
                 height: auto;
             }
 
-            .slidingglass-main-section h1 {
+            .glass-sliding-main-section h1 {
                 font-size: 30px;
             }
 
-            .slidingglass-main-section {
+            .glass-sliding-main-section {
                 padding: 50px 20px;
             }
         }
 
-    /* PRODUCTS SECTION */
-    .slidingglass-prod-section{
-        max-width: var(--slidingglass-container-width);
+
+    /* UNIQUE CONTAINER - RENAMED */
+    .glass-sliding-prod-section{
+        /* max-width: 1400px; */
         margin: auto;
         padding: 40px 20px;
         background: var(--primary-color);
     }
 
-    .slidingglass-prod-title{
+    .glass-sliding-prod-title{
         text-align:center;
         margin-bottom:30px;
         color: var(--text-heading);
@@ -352,15 +353,15 @@
         font-weight:700;
     }
 
-    /* PRODUCT GRID */
-    .slidingglass-prod-grid{
+    /* UNIQUE GRID - RENAMED */
+    .glass-sliding-prod-grid{
         display:grid;
         grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
         gap:25px;
     }
 
-    /* PRODUCT CARD */
-    .slidingglass-prod-card{
+    /* UNIQUE CARD - RENAMED */
+    .glass-sliding-prod-card{
         background: var(--primary-light);
         border-radius: var(--border-radius-main);
         overflow:hidden;
@@ -370,34 +371,34 @@
         border: 1px solid var(--border-color);
     }
 
-    .slidingglass-prod-card:hover{
+    .glass-sliding-prod-card:hover{
         transform:translateY(-6px);
         box-shadow: var(--shadow-medium);
     }
 
-    .slidingglass-prod-card-img{
+    .glass-sliding-prod-card-img{
         width: 100%;
         height: 364px;
         object-fit: cover;
     }
 
-    .slidingglass-prod-card-info{
+    .glass-sliding-prod-card-info{
         padding:15px;
     }
 
-    .slidingglass-prod-card-info h3{
+    .glass-sliding-prod-card-info h3{
         font-size:20px;
         color: var(--text-heading);
         margin-bottom:5px;
     }
 
-    .slidingglass-prod-card-info p{
+    .glass-sliding-prod-card-info p{
         font-size:14px;
         color: var(--text-color);
     }
 
-    /* PRODUCT POPUP */
-    .slidingglass-prod-popup{
+    /* UNIQUE POPUP - RENAMED */
+    .glass-sliding-prod-popup{
         position:fixed;
         inset:0;
         display:none;
@@ -408,48 +409,48 @@
         z-index:9999;
     }
 
-    .slidingglass-prod-popup.active{
+    .glass-sliding-prod-popup.active{
         display:flex;
     }
 
-    .slidingglass-prod-popup-box{
+    .glass-sliding-prod-popup-box{
         background: var(--primary-light);
         width:100%;
         max-width:520px;
         border-radius: var(--border-radius-main);
         overflow:hidden;
-        animation:slidingglassProdShow .3s ease;
+        animation:glassSlidingProdShow .3s ease;
         border: 1px solid var(--border-color);
     }
 
-    @keyframes slidingglassProdShow{
+    @keyframes glassSlidingProdShow{
         from{opacity:0;transform:translateY(20px);}
         to{opacity:1;transform:translateY(0);}
     }
 
-    .slidingglass-prod-popup-img{
+    .glass-sliding-prod-popup-img{
         width:100%;
         height:280px;
         object-fit:cover;
     }
 
-    .slidingglass-prod-popup-content{
+    .glass-sliding-prod-popup-content{
         padding:20px;
     }
 
-    .slidingglass-prod-popup-content h2{
+    .glass-sliding-prod-popup-content h2{
         font-size:24px;
         margin-bottom:10px;
         color: var(--text-heading);
     }
 
-    .slidingglass-prod-popup-content p{
+    .glass-sliding-prod-popup-content p{
         font-size:15px;
         line-height:1.7;
         color: var(--text-color);
     }
 
-    .slidingglass-prod-btn{
+    .glass-sliding-prod-btn{
         display:inline-block;
         margin-top:15px;
         padding:10px 18px;
@@ -461,11 +462,11 @@
         transition: background-color var(--transition-speed);
     }
 
-    .slidingglass-prod-btn:hover {
+    .glass-sliding-prod-btn:hover {
         background-color: #b5987a;
     }
 
-    .slidingglass-prod-close{
+    .glass-sliding-prod-close{
         position:absolute;
         top:15px;
         right:25px;
@@ -474,20 +475,22 @@
         cursor:pointer;
     }
 
-    /* EXPORT SECTION */
-    .slidingglass-export-section{
+
+    
+    /* SECTION WRAPPER - RENAMED */
+    .glass-sliding-fund-section{
         width:100%;
         padding:60px 20px;
         background: var(--primary-color);
     }
 
-    .slidingglass-export-container{
-        max-width: var(--slidingglass-container-width);
+    .glass-sliding-fund-container{
+        /* max-width: 1400px; */
         padding: 0px 50px;
         margin:auto;
     }
 
-    .slidingglass-export-top-title{
+    .glass-sliding-fund-top-title{
         font-size:14px;
         letter-spacing:1px;
         margin-bottom:15px;
@@ -495,7 +498,7 @@
         font-weight:600;
     }
 
-    .slidingglass-export-heading{
+    .glass-sliding-fund-heading{
         font-size:34px;
         font-weight:700;
         color: var(--text-heading);
@@ -503,7 +506,7 @@
         line-height:1.3;
     }
 
-    .slidingglass-export-desc{
+    .glass-sliding-fund-desc{
         font-size:15px;
         color: var(--text-color);
         line-height:1.7;
@@ -511,7 +514,7 @@
         margin-bottom:35px;
     }
 
-    .slidingglass-export-link{
+    .glass-sliding-fund-link{
         display:flex;
         align-items:center;
         gap:15px;
@@ -522,20 +525,20 @@
         text-decoration: none;
     }
 
-    .slidingglass-export-line{
+    .glass-sliding-fund-line{
         width:120px;
         border-bottom:1px solid var(--secondary-color);
     }
 
-    /* CARDS WRAP */
-    .slidingglass-export-card-wrap{
+    /* CARDS WRAP - RENAMED */
+    .glass-sliding-fund-card-wrap{
         display:flex;
         flex-wrap:wrap;
         gap:30px;
     }
 
-    /* CARD */
-    .slidingglass-export-card{
+    /* CARD - RENAMED */
+    .glass-sliding-fund-card{
         background: var(--primary-light);
         flex:1;
         min-width:420px;
@@ -547,251 +550,641 @@
         transition: transform var(--transition-speed);
     }
 
-        .slidingglass-export-card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--shadow-medium);
+    .glass-sliding-fund-card:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-medium);
+    }
+
+    .glass-sliding-fund-card-title{
+        font-size:26px;
+        font-weight:700;
+        margin-bottom:20px;
+        color: var(--text-heading);
+    }
+
+    .glass-sliding-fund-card p{
+        font-size:15px;
+        line-height:1.7;
+        color: var(--text-color);
+        margin-bottom:30px;
+    }
+
+    .glass-sliding-fund-card hr{
+        border:none;
+        height:1px;
+        background: var(--border-color);
+        margin-bottom:20px;
+    }
+
+    .glass-sliding-fund-card-subtitle{
+        font-size:15px;
+        font-weight:600;
+        color: var(--secondary-color);
+        margin-bottom:12px;
+    }
+
+    /* LIST - RENAMED */
+    .glass-sliding-fund-list{
+        list-style:none;
+        padding-left:0;
+    }
+
+    .glass-sliding-fund-list li{
+        margin-bottom:8px;
+        font-size:15px;
+        color: var(--text-color);
+    }
+
+    .glass-sliding-fund-list li:before{
+        content:"✔ ";
+        color: var(--secondary-color);
+        font-weight:700;
+    }
+
+    /* RESPONSIVE */
+    @media(max-width:900px){
+        .glass-sliding-fund-card-wrap{
+            flex-direction:column;
+        }
+        .glass-sliding-fund-card{
+            min-width:100%;
+        }
+    }
+
+
+       /* MAIN WRAPPER - RENAMED */
+    .glass-sliding-project-section{
+        width:100%;
+        padding:100px 20px;
+        background: var(--primary-color);
+    }
+
+    .glass-sliding-project-container{
+        max-width: 1550px;
+        margin:auto;
+        display:flex;
+        justify-content:space-between;
+        align-items:flex-start;
+        gap:50px;
+    }
+
+    /* LEFT CONTENT - RENAMED */
+    .glass-sliding-project-left{
+        flex:1;
+    }
+
+    .glass-sliding-project-subtitle{
+        font-size:14px;
+        letter-spacing:1px;
+        color: var(--secondary-color);
+        margin-bottom:20px;
+        font-weight:500;
+    }
+
+    .glass-sliding-project-title{
+        font-size:38px;
+        color: var(--text-heading);
+        font-weight:700;
+        margin-bottom:25px;
+        line-height:1.3;
+    }
+
+    .glass-sliding-project-text{
+        font-size:16px;
+        line-height:1.8;
+        color: var(--text-color);
+        margin-bottom:22px;
+        max-width:650px;
+    }
+
+    /* BULLETS - RENAMED */
+    .glass-sliding-project-list{
+        margin-top:10px;
+        list-style:none;
+        padding-left:0;
+    }
+
+    .glass-sliding-project-list li{
+        margin-bottom:10px;
+        font-size:16px;
+        color: var(--text-color);
+        line-height:1.6;
+    }
+
+    .glass-sliding-project-list li:before{
+        content:"• ";
+        font-size:20px;
+        line-height:1;
+        color: var(--secondary-color);
+        font-weight:bold;
+    }
+
+    /* RIGHT IMAGE - RENAMED */
+    .glass-sliding-project-right img{
+        width:650px;
+        height:480px;
+        object-fit:cover;
+        border-radius: var(--border-radius-main);
+        border: 1px solid var(--border-color);
+    }
+
+    /* RESPONSIVE */
+    @media(max-width:1000px){
+        .glass-sliding-project-container{
+            flex-direction:column;
         }
 
-        .slidingglass-export-card-title{
-            font-size:26px;
-            font-weight:700;
-            margin-bottom:20px;
-            color: var(--text-heading);
-        }
-
-        .slidingglass-export-card p{
-            font-size:15px;
-            line-height:1.7;
-            color: var(--text-color);
-            margin-bottom:30px;
-        }
-
-        .slidingglass-export-card hr{
-            border:none;
-            height:1px;
-            background: var(--border-color);
-            margin-bottom:20px;
-        }
-
-        .slidingglass-export-card-subtitle{
-            font-size:15px;
-            font-weight:600;
-            color: var(--secondary-color);
-            margin-bottom:12px;
-        }
-
-        /* LIST */
-        .slidingglass-export-list{
-            list-style:none;
-            padding-left:0;
-        }
-
-        .slidingglass-export-list li{
-            margin-bottom:8px;
-            font-size:15px;
-            color: var(--text-color);
-        }
-
-        .slidingglass-export-list li:before{
-            content:"✔ ";
-            color: var(--secondary-color);
-            font-weight:700;
-        }
-
-        /* RESPONSIVE */
-        @media(max-width:900px){
-            .slidingglass-export-card-wrap{
-                flex-direction:column;
-            }
-            .slidingglass-export-card{
-                min-width:100%;
-            }
-        }
-
-        /* PROJECT SECTION */
-        .slidingglass-project-section{
+        .glass-sliding-project-right img{
             width:100%;
-            padding:100px 20px;
-            background: var(--primary-color);
+            height:auto;
         }
 
-        .slidingglass-project-container{
-            max-width: 1350px;
-            margin:auto;
-            display:flex;
-            justify-content:space-between;
-            align-items:flex-start;
-            gap:50px;
-        }
+        
+    }
 
-        /* LEFT CONTENT */
-        .slidingglass-project-left{
-            flex:1;
-        }
 
-        .slidingglass-project-subtitle{
-            font-size:14px;
-            letter-spacing:1px;
-            color: var(--secondary-color);
-            margin-bottom:20px;
-            font-weight:500;
-        }
 
-        .slidingglass-project-title{
-            font-size:38px;
-            color: var(--text-heading);
-            font-weight:700;
-            margin-bottom:25px;
-            line-height:1.3;
-        }
+     /* ===============================
+   JANSON GLASS SLIDING (EXACT)
+================================ */
 
-        .slidingglass-project-text{
-            font-size:16px;
-            line-height:1.8;
-            color: var(--text-color);
-            margin-bottom:22px;
-            max-width:650px;
-        }
+#jansonGlassSlidingWrapper {
+    padding: 80px 5%;
+    background: var(--primary-color);
+    font-family: var(--font-primary);
+}
 
-        /* BULLETS */
-        .slidingglass-project-list{
-            margin-top:10px;
-            list-style:none;
-            padding-left:0;
-        }
+.janson-glass-sliding-inner {
+    max-width: 1450px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1.35fr 1fr 80px;
+    gap: 40px;
+    align-items: center;
+}
 
-        .slidingglass-project-list li{
-            margin-bottom:10px;
-            font-size:16px;
-            color: var(--text-color);
-            line-height:1.6;
-        }
+/* COMMON BOX */
+.janson-glass-sliding-box {
+    text-align: center;
+}
 
-        .slidingglass-project-list li:before{
-            content:"• ";
-            font-size:20px;
-            line-height:1;
-            color: var(--secondary-color);
-            font-weight:bold;
-        }
+/* IMAGE HOLDER */
+.janson-img-holder {
+    overflow: hidden;
+    border-radius: var(--border-radius-main);
+    box-shadow: var(--shadow-medium);
+}
 
-        /* RIGHT IMAGE */
-        .slidingglass-project-right img{
-            width:650px;
-            height:480px;
-            object-fit:cover;
-            border-radius: var(--border-radius-main);
-            border: 1px solid var(--border-color);
-        }
+.janson-img-holder img {
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
 
-        /* RESPONSIVE */
-        @media(max-width:1000px){
-            .slidingglass-project-container{
-                flex-direction:column;
-            }
+/* BIG CENTER IMAGE */
+.big-img img {
+    height: 540px;
+}
 
-            .slidingglass-project-right img{
-                width:100%;
-                height:auto;
-            }
-        }
+/* HOVER ZOOM */
+.janson-img-holder:hover img {
+    transform: scale(1.12);
+}
 
-        /* FAQ SECTION */
-        .slidingglass-faq-section{
-            width:100%;
-            background: var(--primary-light);
-            color: var(--text-heading);
-            padding:100px 20px;
-            text-align:center;
-            border-top: 1px solid var(--border-color);
-            border-bottom: 1px solid var(--border-color);
-        }
+/* LABEL */
+.janson-label {
+    margin-top: 18px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    color: var(--text-heading);
+}
 
-        /* MAIN TITLE */
-        .slidingglass-faq-title{
-            font-size:40px;
-            font-weight:700;
-            margin-bottom:50px;
-            letter-spacing:2px;
-        }
+/* TOP LOGO */
+.janson-top-logo {
+    margin-bottom: 18px;
+    font-weight: 600;
+    color: var(--light-color);
+}
 
-        /* FAQ CONTAINER */
-        .slidingglass-faq-container{
-            max-width:1100px;
-            margin:auto;
-            text-align:left;
-        }
+.janson-logo-je {
+    font-size: 1.6rem;
+    margin-right: 6px;
+}
 
-        /* FAQ ITEM */
-        .slidingglass-faq-item{
-            width:100%;
-            border-bottom:1px solid var(--border-color);
-            padding:22px 10px;
-            cursor:pointer;
-            position:relative;
-            transition: background-color var(--transition-speed);
-        }
+.janson-logo-text {
+    color: var(--secondary-color);
+}
 
-        .slidingglass-faq-item:hover {
-            background-color: rgba(198, 169, 140, 0.05);
-        }
+/* BNI BADGE */
+.janson-bni-badge {
+    margin-top: 14px;
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 30px;
+    background: #c6a98c;
+    color: #fff;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
 
-        .slidingglass-faq-question{
-            font-size:18px;
-            font-weight:500;
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-        }
+/* RIGHT VERTICAL STRIP */
+.janson-vertical-strip {
+    color: #fff;
+    font-weight: 700;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 6px;
+    letter-spacing: 20px;
+}
 
-        /* PLUS / MINUS ICON */
-        .slidingglass-faq-icon{
-            font-size:26px;
-            font-weight:700;
-            transition:0.3s;
-            user-select:none;
-            color: var(--secondary-color);
-        }
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+    .janson-glass-sliding-inner {
+        grid-template-columns: 1fr;
+    }
 
-        /* ANSWER CONTENT */
-        .slidingglass-faq-answer{
-            font-size:16px;
-            color: var(--text-color);
-            max-height:0;
-            overflow:hidden;
-            line-height:1.7;
-            padding-right:35px;
-            transition:max-height 0.4s ease;
-        }
+    .janson-vertical-strip {
+        writing-mode: horizontal-tb;
+        transform: none;
+        margin-top: 20px;
+    }
+}
 
-        .slidingglass-faq-item.active .slidingglass-faq-answer{
-            margin-top:12px;
-            max-height:300px;
-        }
 
-        /* CHANGE ICON WHEN ACTIVE */
-        .slidingglass-faq-item.active .slidingglass-faq-icon{
-            transform:rotate(180deg);
-        }
+    
+    /* SECTION BACKGROUND - RENAMED */
+    .glass-sliding-faq-section{
+        width:100%;
+        background: var(--primary-light);
+        color: var(--text-heading);
+        padding:100px 20px;
+        text-align:center;
+        border-top: 1px solid var(--border-color);
+        border-bottom: 1px solid var(--border-color);
+    }
 
-        /* READ ALL BUTTON */
-        .slidingglass-faq-btn{
-            margin-top:50px;
-            padding:12px 25px;
-            border:1px solid var(--secondary-color);
-            color: var(--secondary-color);
-            background:transparent;
-            border-radius: var(--border-radius-main);
-            font-size:16px;
-            cursor:pointer;
-            transition: var(--transition-speed);
-            font-weight: 600;
-        }
+    /* MAIN TITLE - RENAMED */
+    .glass-sliding-faq-title{
+        font-size:40px;
+        font-weight:700;
+        margin-bottom:50px;
+        letter-spacing:2px;
+    }
 
-        .slidingglass-faq-btn:hover{
-            background: var(--secondary-color);
-            color: var(--primary-color);
-        }
+    /* FAQ CONTAINER - RENAMED */
+    .glass-sliding-faq-container{
+        max-width:1100px;
+        margin:auto;
+        text-align:left;
+    }
+
+    /* FAQ ITEM - RENAMED */
+    .glass-sliding-faq-item{
+        width:100%;
+        border-bottom:1px solid var(--border-color);
+        padding:22px 10px;
+        cursor:pointer;
+        position:relative;
+        transition: background-color var(--transition-speed);
+    }
+
+    .glass-sliding-faq-item:hover {
+        background-color: rgba(198, 169, 140, 0.05);
+    }
+
+    .glass-sliding-faq-question{
+        font-size:18px;
+        font-weight:500;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    /* PLUS / MINUS ICON - RENAMED */
+    .glass-sliding-faq-icon{
+        font-size:26px;
+        font-weight:700;
+        transition:0.3s;
+        user-select:none;
+        color: var(--secondary-color);
+    }
+
+    /* ANSWER CONTENT - RENAMED */
+    .glass-sliding-faq-answer{
+        font-size:16px;
+        color: var(--text-color);
+        max-height:0;
+        overflow:hidden;
+        line-height:1.7;
+        padding-right:35px;
+        transition:max-height 0.4s ease;
+    }
+
+    .glass-sliding-faq-item.active .glass-sliding-faq-answer{
+        margin-top:12px;
+        max-height:300px;
+    }
+
+    /* CHANGE ICON WHEN ACTIVE - RENAMED */
+    .glass-sliding-faq-item.active .glass-sliding-faq-icon{
+        transform:rotate(180deg);
+    }
+
+    /* READ ALL BUTTON - RENAMED */
+    .glass-sliding-faq-btn{
+        margin-top:50px;
+        padding:12px 25px;
+        border:1px solid var(--secondary-color);
+        color: var(--secondary-color);
+        background:transparent;
+        border-radius: var(--border-radius-main);
+        font-size:16px;
+        cursor:pointer;
+        transition: var(--transition-speed);
+        font-weight: 600;
+    }
+
+    .glass-sliding-faq-btn:hover{
+        background: var(--secondary-color);
+        color: var(--primary-color);
+    }
+
+    @media (min-width:300px) and (max-width:700px){
+    .glass-sliding-fund-container{
+        padding: 0px !important;
+    }
+}
+.glass-sliding-hero-content h5{
+    color: white;
+    font-weight : 900;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.8);
+    margin-top: -60px;
+}
+
+
+/* ===============================
+   JANSON FEATURE SECTION
+================================ */
+
+#jansonFeatureSection {
+    padding: 90px 6%;
+    background: var(--primary-color);
+    font-family: var(--font-primary);
+}
+
+.janson-feature-wrapper {
+    max-width: 1450px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.2fr 80px 1fr;
+    gap: 40px;
+    position: relative;
+}
+
+/* IMAGE */
+.janson-feature-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.janson-feature-image img {
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+    transition: transform 0.7s ease;
+}
+
+.janson-feature-image:hover img {
+    transform: scale(1.12);
+}
+
+/* YELLOW CORNERS */
+.corner {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f5b400;
+}
+
+.tl { top: 15px; left: 15px; border-right: none; border-bottom: none; }
+.tr { top: 15px; right: 15px; border-left: none; border-bottom: none; }
+.bl { bottom: 15px; left: 15px; border-right: none; border-top: none; }
+.br { bottom: 15px; right: 15px; border-left: none; border-top: none; }
+
+/* RED CURVE */
+.janson-feature-curve {
+    border-left: 4px solid #c6a98c;
+    border-radius: 50%;
+}
+
+/* CONTENT */
+.janson-feature-content {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.janson-feature-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.janson-feature-icon {
+    width: 48px;
+    height: 48px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.janson-feature-item h4 {
+    margin: 0;
+    color: var(--text-heading);
+    font-size: 1.15rem;
+}
+
+.janson-feature-item h4 span {
+    color: var(--secondary-color);
+    margin-right: 10px;
+}
+
+.janson-feature-item p {
+    margin-top: 6px;
+    color: var(--text-color);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* BNI */
+.janson-feature-bni {
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    background: #c6a98c;
+    color: #fff;
+    padding: 18px 22px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .janson-feature-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .janson-feature-curve {
+        display: none;
+    }
+
+    .janson-feature-bni {
+        position: static;
+        margin-top: 30px;
+    }
+}
+
+
+.glass-sliding-product-slider{
+display:flex;
+gap:40px;
+padding:60px;
+align-items:center;
+}
+
+/* LEFT */
+.glass-sliding-product-images{
+position:relative;
+flex:1;
+background:linear-gradient(145deg,#0d0d0d,#1c1c1c);
+border-radius:12px;
+padding:40px;
+text-align:center;
+}
+
+.glass-sliding-stock{
+position:absolute;
+top:20px;
+left:20px;
+opacity:0.3;
+letter-spacing:2px;
+}
+
+.glass-sliding-main-img{
+width:80%;
+transition:0.3s;
+}
+
+.glass-sliding-thumbs{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-top:20px;
+flex-wrap:wrap;
+}
+
+.glass-sliding-thumbs img{
+width:60px;
+cursor:pointer;
+opacity:0.6;
+border-radius:8px;
+}
+
+.glass-sliding-thumbs img.active,
+.glass-sliding-thumbs img:hover{
+opacity:1;
+transform:scale(1.1);
+}
+
+/* RIGHT */
+.glass-sliding-product-info{
+flex:1;
+background:var(--primary-light);
+padding:35px;
+border-radius:12px;
+box-shadow:var(--shadow-medium);
+}
+
+.glass-sliding-product-title{
+font-size:26px;
+color:var(--text-heading);
+}
+
+.glass-sliding-category{
+font-size:13px;
+opacity:0.7;
+}
+
+.glass-sliding-price{
+font-size:28px;
+margin:12px 0;
+color:var(--secondary-color);
+}
+
+.glass-sliding-rating{
+color:gold;
+margin-bottom:12px;
+}
+
+.glass-sliding-desc{
+font-size:14px;
+line-height:1.6;
+margin-bottom:18px;
+color:var(--text-color);
+}
+
+.glass-sliding-sizes span{
+display:inline-block;
+border:1px solid var(--border-color);
+padding:6px 10px;
+margin:6px 6px 0 0;
+cursor:pointer;
+border-radius:6px;
+}
+
+.glass-sliding-sizes span.active{
+background:var(--secondary-color);
+color:#000;
+}
+
+.glass-sliding-colors span{
+display:inline-block;
+width:18px;
+height:18px;
+border-radius:50%;
+margin:8px 8px 0 0;
+border:1px solid #555;
+}
+
+.glass-sliding-cart-btn{
+margin-top:22px;
+width:100%;
+padding:12px;
+background:var(--secondary-color);
+border:none;
+font-weight:600;
+cursor:pointer;
+border-radius:var(--border-radius-main);
+}
+
+@media(max-width:900px){
+.glass-sliding-product-slider{
+flex-direction:column;
+}
+}
+
 
     </style>
 </head>
@@ -799,21 +1192,21 @@
 <body>
 
     <!-- HERO IMAGE SECTION -->
-    <section class="slidingglass-hero-section">
-        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1600" alt="Glass Sliding Background">
-        <div class="slidingglass-hero-content">
+    <section class="glass-sliding-hero-section"  data-aos="zoom-in">
+        <img src="slim-partition/WhatsApp Image 2025-12-24 at 6.30.17 PM (1).jpeg" alt="Glass Sliding Background">
+        <div class="glass-sliding-hero-content">
             <h5>GLASS SLIDING SYSTEMS</h5>
-            <h1>ELEGANT GLASS SLIDING DOORS FOR MODERN INTERIORS</h1>
+            <h1>ELEGANT SLIDING SOLUTIONS FOR MODERN INTERIORS</h1>
         </div>
     </section>
 
     <!-- CONTENT BOX SECTION -->
-    <section class="slidingglass-content-box">
-        <div class="slidingglass-content-wrapper">
+    <section class="glass-sliding-content-box"  data-aos="zoom-in">
+        <div class="glass-sliding-content-wrapper">
             <div>
-                <h2 class="slidingglass-content-title">GLASS SLIDING MANUFACTURER IN INDIA</h2>
+                <h2 class="glass-sliding-content-title">GLASS SLIDING MANUFACTURER IN INDIA</h2>
             </div>
-            <div class="slidingglass-content-text">
+            <div class="glass-sliding-content-text">
                 <p>
                     As one of the leading Glass Sliding manufacturers, we specialize in designing and producing elegant, durable, and innovative sliding systems that enhance the aesthetics and functionality of modern interiors. Our glass sliding systems are engineered to ensure smooth, silent, and effortless operation while maximizing space utilisation and adding a touch of contemporary sophistication.
                 </p>
@@ -827,45 +1220,94 @@
         </div>
     </section>
 
-    <div class="slidingglass-benefits-wrapper">
+    <div class="glass-sliding-benefits-wrapper">
         <!-- CARD 1 -->
-        <div class="slidingglass-card">
-            <div class="slidingglass-tag">Benefits</div>
-            <img class="slidingglass-icon" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
-            <div class="slidingglass-card-title">SPACE OPTIMIZATION</div>
+        <div class="glass-sliding-card"  data-aos="zoom-in">
+            <div class="glass-sliding-tag">Benefits</div>
+            <img class="glass-sliding-icon" src="https://cdn-icons-png.flaticon.com/512/992/992651.png">
+            <div class="glass-sliding-card-title">SPACE OPTIMIZATION</div>
             <p>
-                Suitable for compact areas, thus allowing for movement without door swing space. Adds a modern and minimalist touch to any interior setting with elegant design.
+                Suitable for compact areas, thus allowing for movement without door swing space. Elegant Design: Adds a modern and minimalist touch to any interior setting.
             </p>
         </div>
 
         <!-- PLUS SIGN -->
-        <div class="slidingglass-plus">+</div>
+        <div class="glass-sliding-plus">+</div>
 
         <!-- CARD 2 -->
-        <div class="slidingglass-card">
-            <div class="slidingglass-tag">Benefits</div>
-            <img class="slidingglass-icon" src="https://cdn-icons-png.flaticon.com/512/3022/3022553.png">
-            <div class="slidingglass-card-title">SMOOTH OPERATION</div>
+        <div class="glass-sliding-card" data-aos="zoom-in">
+            <div class="glass-sliding-tag">Benefits</div>
+            <img class="glass-sliding-icon" src="https://cdn-icons-png.flaticon.com/512/3430/3430447.png">
+            <div class="glass-sliding-card-title">SMOOTH OPERATION</div>
             <p>
-                Fitted with high-quality rollers and tracks, ensuring smooth movement. Guarantee of silent, smooth functioning for ultimate comfort with noise-free mechanism.
+                Smooth Operation: It is fitted with high-quality rollers and tracks, ensuring smooth movement. Noise-Free Mechanism: With a guarantee of silent, smooth functioning for ultimate comfort.
             </p>
         </div>
 
         <!-- DOTTED LINE -->
-        <div class="slidingglass-dotted-line"></div>
+        <div class="glass-sliding-dotted-line"  data-aos="zoom-in"></div>
 
         <!-- CARD 3 -->
-        <div class="slidingglass-card slidingglass-right-card">
-            <div class="slidingglass-tag">Benefits</div>
-            <img class="slidingglass-icon" src="https://cdn-icons-png.flaticon.com/512/3033/3033143.png">
-            <div class="slidingglass-card-title">DURABLE & CUSTOM</div>
+        <div class="glass-sliding-card glass-sliding-right-card" data-aos="zoom-in">
+            <div class="glass-sliding-tag">Applications</div>
+            <img class="glass-sliding-icon" src="https://cdn-icons-png.flaticon.com/512/456/456177.png">
+            <div class="glass-sliding-card-title">VERSATILE APPLICATIONS</div>
             <p>
-                Made from toughened glass and corrosion-resistant fittings for long-lasting performance. Easy to clean and maintain, holding clarity and brilliance for years with custom solutions available.
+                Easy to clean and maintain, holding clarity and brilliance for years. Custom Solutions: Available in many sizes, different glass finishes, and a variety of frames to suit any style.
             </p>
         </div>
     </div>
 
-    <section class="slidingglass-main-section">
+<section class="janson-glass-sliding-wrapper" id="jansonGlassSlidingWrapper">
+    <div class="janson-glass-sliding-inner">
+
+        <!-- LEFT IMAGE -->
+        <div class="janson-glass-sliding-box janson-left-box">
+            <div class="janson-img-holder">
+                <img src="glass-sliding/Tempered Glass Panel.avif" alt="Frameless Glass Sliding">
+            </div>
+            <p class="janson-label">Tempered Glass Panel</p>
+        </div>
+
+        <!-- CENTER IMAGE -->
+        <div class="janson-glass-sliding-box janson-center-box">
+
+            <div class="janson-top-logo">
+                <span class="janson-logo-je">JE</span>
+                <span class="janson-logo-text">JANSON EXPORTS</span>
+            </div>
+
+            <div class="janson-img-holder big-img">
+                <img src="glass-sliding/Glass Clamp.avif" alt="Office Glass Sliding">
+            </div>
+            <p class="janson-label">Glass Clamp</p>
+
+            <div class="janson-bni-badge">BNI MEMBER</div>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="janson-glass-sliding-box janson-right-box">
+            <div class="janson-img-holder">
+                <img src="glass-sliding/Heavy-Duty Roller Assembly.jpg" alt="Pocket Glass Sliding">
+            </div>
+            <p class="janson-label">Heavy-Duty Roller Assembly</p>
+        </div>
+
+        <!-- RIGHT VERTICAL BAR -->
+        <div class="janson-vertical-strip">
+            <span>GLASS SLIDING</span>
+            <span>SUBCATEGORIES</span>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+    
+
+    <section class="glass-sliding-main-section"  data-aos="zoom-in">
         <h1>GLASS SLIDING SUPPLIER IN INDIA</h1>
         <p>
             As one of the trusted Glass Sliding suppliers, we provide top-quality sliding door and partition systems to meet all requirements of architects, interior designers, and builders. Our effective supply chain and client-oriented approach bring timely delivery and complete satisfaction for every project.
@@ -874,36 +1316,36 @@
             We provide sliding glass systems for residential and commercial use—flexible, elegant, and functional. Every product supplied is carefully checked to ensure quality, safety, and ease in operation, therefore making us the first choice supplier for various industries.
         </p>
 
-        <a href="#" class="slidingglass-discuss-link">
+        <a href="contact.php" class="glass-sliding-discuss-link">
             Request a Quote
-            <div class="slidingglass-line"></div>
+            <div class="glass-sliding-line"></div>
         </a>
 
         <!-- MAIN ROW -->
-        <div class="slidingglass-row">
+        <div class="glass-sliding-row"  data-aos="zoom-in">
             <!-- LEFT IMAGE -->
-            <div class="slidingglass-left-img">
-                <img src="drive-download-20251210T094305Z-3-001/Glass Sliding Door Lock (For Over Lap Glass)/2.jpeg" alt="Glass Sliding Installation">
+            <div class="glass-sliding-left-img">
+                <img src="glass-sliding/Image.jpg" alt="Glass Sliding Installation">
             </div>
 
             <!-- RIGHT CONTENT -->
-            <div class="slidingglass-right-content">
+            <div class="glass-sliding-right-content">
                 <h5>KEY FEATURES</h5>
                 <h2>Premium Glass Sliding Solutions</h2>
                 <p>
-                    Our glass sliding systems feature premium toughened or laminated glass panels with high-grade aluminum or stainless steel sliding tracks. Designed with smooth, soft-closing, and anti-jump mechanisms for perfect operation.
+                    Our glass sliding systems feature premium toughened or laminated glass panels with high-grade aluminum or stainless steel sliding tracks. They include smooth, soft-closing, and anti-jump mechanisms for superior performance.
                 </p>
                 <p>
-                    Available in different designs including frameless, semi-framed, or fully framed configurations with clear, frosted, tinted, or decorative glass finishes. Easy to install with minimal visible hardware for a clean, modern look.
+                    Available in different designs including frameless, semi-framed, or fully framed options with clear, frosted, tinted, or decorative glass finishes. Designed for easy installation with minimal visible hardware and corrosion-resistant components.
                 </p>
                 <p>
-                    Featuring corrosion and wear-resistant components suitable for residential, commercial and hospitality applications, our glass sliding systems provide the perfect combination of aesthetics and functionality for modern spaces.
+                    Our expert team works closely with clients to provide sliding solutions suitable for residential, commercial, and hospitality applications that combine elegance with functionality.
                 </p>
-                <ul class="slidingglass-ul">
+                <ul class="glass-sliding-ul">
                     <li>Premium toughened or laminated glass panels</li>
                     <li>High-grade aluminum or stainless steel sliding tracks</li>
                     <li>Smooth, soft-closing, and anti-jump mechanisms</li>
-                    <li>Different designs available: frameless, semi-framed, or fully framed</li>
+                    <li>Different designs are available: frameless, semi-framed, or fully framed</li>
                     <li>Available in clear, frosted, tinted, or decorative glass finishes</li>
                     <li>Easy to install, with minimal visible hardware</li>
                     <li>Corrosion and wear-resistant components</li>
@@ -913,188 +1355,316 @@
         </div>
     </section>
     
-    <div class="slidingglass-prod-section">
-        <h2 class="slidingglass-prod-title">OUR GLASS SLIDING PRODUCTS</h2>
-        <div class="slidingglass-prod-grid">
+    <div class="glass-sliding-prod-section">
+        <h2 class="glass-sliding-prod-title">OUR GLASS SLIDING PRODUCTS</h2>
+        <div class="glass-sliding-prod-grid">
             <!-- CARD 1 -->
-            <div class="slidingglass-prod-card" onclick="slidingglassProdOpenPopup('Frameless Glass Sliding','Modern frameless glass sliding doors. Sleek design for contemporary interiors.','drive-download-20251210T094305Z-3-001/Glass Sliding Door Lock (For Over Lap Glass)/4.jpeg')">
-                <img class="slidingglass-prod-card-img" src="drive-download-20251210T094305Z-3-001/Glass Sliding Door Lock (For Over Lap Glass)/4.jpeg">
-                <div class="slidingglass-prod-card-info">
-                    <h3>Frameless Glass Sliding</h3>
-                    <p>Sleek contemporary design</p>
+            <div class="glass-sliding-prod-card" onclick="glassSlidingProdOpenPopup('Sliding Glass Shutter','A Sliding Glass Shutter is a modern and space-efficient glass solution designed for smooth and effortless operation.','glass-sliding/Sliding Glass Shutter.avif')" data-aos="zoom-in"> 
+                <img class="glass-sliding-prod-card-img" src="glass-sliding/Sliding Glass Shutter.avif">
+                <div class="glass-sliding-prod-card-info">
+                    <h3>Sliding Glass Shutter</h3>
+                    <p>Modern Sliding Glass Shutte</p>
                 </div>
             </div>
 
             <!-- CARD 2 -->
-            <div class="slidingglass-prod-card" onclick="slidingglassProdOpenPopup('Aluminum Frame Sliding','Aluminum frame glass sliding doors. Durable and elegant solution.','drive-download-20251210T094305Z-3-001/Glass Sliding Door Lock (For Over Lap Glass)/6.jpeg')">
-                <img class="slidingglass-prod-card-img" src="drive-download-20251210T094305Z-3-001/Glass Sliding Door Lock (For Over Lap Glass)/6.jpeg">
-                <div class="slidingglass-prod-card-info">
-                    <h3>Aluminum Frame Sliding</h3>
-                    <p>Durable frame system</p>
+            <div class="glass-sliding-prod-card" onclick="glassSlidingProdOpenPopup('Patch Fitting','A precision-engineered hardware component designed to securely hold and support glass panels while ensuring strength, stability, and a clean, modern finish.','glass-sliding/Patch Fitting.jpg')" data-aos="zoom-in">
+                <img class="glass-sliding-prod-card-img" src="glass-sliding/Patch Fitting.jpg">
+                <div class="glass-sliding-prod-card-info">
+                    <h3>Patch Fitting</h3>
+                    <p>A precision-engineered hardware.....</p>
                 </div>
             </div>
 
             <!-- CARD 3 -->
-            <div class="slidingglass-prod-card" onclick="slidingglassProdOpenPopup('Frosted Glass Sliding','Frosted glass sliding doors for privacy. Elegant and functional solution.','drive-download-20251210T094305Z-3-001/Glass Sliding Door Lock (For Over Lap Glass)/3.jpeg')">
-                <img class="slidingglass-prod-card-img" src="drive-download-20251210T094305Z-3-001/Glass Sliding Door Lock (For Over Lap Glass)/3.jpeg">
-                <div class="slidingglass-prod-card-info">
-                    <h3>Frosted Glass Sliding</h3>
-                    <p>Privacy with elegance</p>
+            <div class="glass-sliding-prod-card" onclick="glassSlidingProdOpenPopup('Glass Sliding Panel','A sleek tempered glass panel designed for smooth sliding operation, offering durability, safety, and a modern aesthetic for residential and commercial spaces.','glass-sliding/Glass Sliding Panel.jpg')" data-aos="zoom-in">
+                <img class="glass-sliding-prod-card-img" src="glass-sliding/Glass Sliding Panel.jpg">
+                <div class="glass-sliding-prod-card-info">
+                    <h3>Glass Sliding Panel</h3>
+                    <p>Space-saving hidden track system</p>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- POPUP -->
-    <div class="slidingglass-prod-popup" id="slidingglassProdPopup">
-        <span class="slidingglass-prod-close" onclick="slidingglassProdClosePopup()">&times;</span>
-        <div class="slidingglass-prod-popup-box">
-            <img id="slidingglassProdPopupImg" class="slidingglass-prod-popup-img">
-            <div class="slidingglass-prod-popup-content">
-                <h2 id="slidingglassProdPopupTitle"></h2>
-                <p id="slidingglassProdPopupDesc"></p>
-                <a href="#" class="slidingglass-prod-btn">Enquire Now</a>
+    <div class="glass-sliding-prod-popup" id="glassSlidingProdPopup">
+        <span class="glass-sliding-prod-close" onclick="glassSlidingProdClosePopup()">&times;</span>
+        <div class="glass-sliding-prod-popup-box">
+            <img id="glassSlidingProdPopupImg" class="glass-sliding-prod-popup-img">
+            <div class="glass-sliding-prod-popup-content">
+                <h2 id="glassSlidingProdPopupTitle"></h2>
+                <p id="glassSlidingProdPopupDesc"></p>
+                <a href="contact.php" class="glass-sliding-prod-btn">Enquire Now</a>
             </div>
         </div>
     </div>
 
-    <section class="slidingglass-export-section">
-        <div class="slidingglass-export-container">
-            <div class="slidingglass-export-top-title">EXPORT QUALITY</div>
-            <h2 class="slidingglass-export-heading">GLASS SLIDING EXPORTER IN INDIA</h2>
-            <p class="slidingglass-export-desc">
+    <section class="glass-sliding-fund-section" data-aos="zoom-in">
+        <div class="glass-sliding-fund-container">
+            <div class="glass-sliding-fund-top-title">EXPORT QUALITY</div>
+            <h2 class="glass-sliding-fund-heading">GLASS SLIDING EXPORTER IN INDIA</h2>
+            <p class="glass-sliding-fund-desc">
                 As an esteemed Glass Sliding exporter, we are proud to offer world-class sliding glass systems to global markets that promise superior quality, style, and performance. Our export-grade sliding solutions are engineered in compliance with international standards, making them ideal for contemporary architectural and interior design projects.
             </p>
             
-            <a href="#" class="slidingglass-export-link">
+            <a href="contact.php" class="glass-sliding-fund-link">
                 International Enquiries
-                <div class="slidingglass-export-line"></div>
+                <div class="glass-sliding-fund-line"></div>
             </a>
 
-            <div class="slidingglass-export-card-wrap">
-                <div class="slidingglass-export-card">
-                    <div class="slidingglass-export-card-title">Global Standards</div>
+            <div class="glass-sliding-fund-card-wrap">
+                <div class="glass-sliding-fund-card">
+                    <div class="glass-sliding-fund-card-title">Global Standards</div>
                     <p>
                         We offer complete export services, from design customization and quality testing to safe packaging and timely delivery, in order to make the entire process hassle-free for our international clients.
                     </p>
                     <hr>
-                    <div class="slidingglass-export-card-subtitle">Our Export Advantages:</div>
-                    <ul class="slidingglass-export-list">
-                        <li>Engineered to international standards</li>
-                        <li>Design customization available</li>
-                        <li>Rigorous quality testing</li>
+                    <div class="glass-sliding-fund-card-subtitle">Our Export Advantages:</div>
+                    <ul class="glass-sliding-fund-list">
+                        <li>Engineered to international compliance standards</li>
+                        <li>Superior quality, style, and performance</li>
+                        <li>Design customization for global markets</li>
                         <li>Safe packaging and timely delivery</li>
                     </ul>
                 </div>
 
-                <div class="slidingglass-export-card">
-                    <div class="slidingglass-export-card-title">International Recognition</div>
+                <div class="glass-sliding-fund-card">
+                    <div class="glass-sliding-fund-card-title">International Markets</div>
                     <p>
                         Our commitment to innovation, reliability, and excellence makes us a well-reputed name among overseas partners seeking high-performance glass sliding systems for modern spaces.
                     </p>
                     <hr>
-                    <div class="slidingglass-export-card-subtitle">Global Market Reach:</div>
-                    <ul class="slidingglass-export-list">
-                        <li>Well-reputed name internationally</li>
-                        <li>Overseas partners worldwide</li>
-                        <li>High-performance systems</li>
-                        <li>Commitment to innovation and excellence</li>
+                    <div class="glass-sliding-fund-card-subtitle">Global Reach:</div>
+                    <ul class="glass-sliding-fund-list">
+                        <li>Contemporary architectural projects</li>
+                        <li>Global interior design markets</li>
+                        <li>Commercial and residential sectors</li>
+                        <li>Hospitality and retail industries</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="slidingglass-project-section">
-        <div class="slidingglass-project-container">
-            <div class="slidingglass-project-left">
-                <div class="slidingglass-project-subtitle">LUXURY RESIDENTIAL PROJECT</div>
-                <h2 class="slidingglass-project-title">Penthouse Terrace Glass Sliding System</h2>
-                <p class="slidingglass-project-text">
-                    A luxury penthouse required seamless integration between indoor and outdoor living spaces. Our frameless glass sliding systems were selected for their elegant appearance and smooth operation, creating a perfect transition to the terrace.
+
+    <!-- <section class="glass-sliding-product-slider" data-aos="zoom-in">
+
+  
+  <div class="glass-sliding-product-images">
+    <span class="glass-sliding-stock">IN STOCK</span>
+
+    <img src="slim-partition/8.jpg" class="glass-sliding-main-img" id="glassSlidingMainImg">
+
+    <div class="glass-sliding-thumbs">
+      <img src="slim-partition/8.jpg" class="active" data-index="0" onclick="changeGlassSlidingProduct(this)">
+      <img src="slim-partition/9.jpg" data-index="1" onclick="changeGlassSlidingProduct(this)">
+      <img src="slim-partition/10.jpg" data-index="2" onclick="changeGlassSlidingProduct(this)">
+      <img src="slim-partition/11.jpg" data-index="3" onclick="changeGlassSlidingProduct(this)">
+      <img src="slim-partition/12.jpg" data-index="4" onclick="changeGlassSlidingProduct(this)">
+    </div>
+  </div>
+
+ 
+  <div class="glass-sliding-product-info">
+
+    <h3 class="glass-sliding-product-title" id="glassSlidingTitle">Frameless Glass Sliding Door</h3>
+    <span class="glass-sliding-category" id="glassSlidingCategory">Space Saving System</span>
+
+    <div class="glass-sliding-price" id="glassSlidingPrice">Custom Quote</div>
+
+    <div class="glass-sliding-rating" id="glassSlidingRating">★★★★★ (4.9)</div>
+
+    <p class="glass-sliding-desc" id="glassSlidingDesc">
+      Premium frameless glass sliding door system with smooth operation. Features high-quality rollers and tracks for silent, effortless movement.
+    </p>
+
+    <div class="glass-sliding-sizes" id="glassSlidingSizes">
+      <strong>Track Type:</strong><br>
+      <span>Single Track</span><span>Double Track</span><span>Pocket Track</span>
+      <span class="active">Custom</span>
+    </div>
+
+    <div class="glass-sliding-colors" id="glassSlidingColors">
+      <strong>Glass Finish:</strong><br>
+      <span style="background:#c6a98c"></span>
+      <span style="background:#ffffff"></span>
+      <span style="background:#1e90ff"></span>
+    </div>
+
+    <button class="glass-sliding-cart-btn">+ REQUEST QUOTE</button>
+
+  </div>
+
+</section> -->
+
+    <section class="janson-feature-section" id="jansonFeatureSection">
+    <div class="janson-feature-wrapper">
+
+        <!-- LEFT IMAGE -->
+        <div class="janson-feature-image">
+            <img src="glass-sliding/Image.jpg" alt="Glass Sliding Installation">
+            <span class="corner tl"></span>
+            <span class="corner tr"></span>
+            <span class="corner bl"></span>
+            <span class="corner br"></span>
+        </div>
+
+        <!-- CURVE LINE -->
+        <div class="janson-feature-curve"></div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="janson-feature-content">
+
+            <div class="janson-feature-item">
+                <div class="janson-feature-icon">👤</div>
+                <div>
+                    <h4><span>01</span> Space Optimization</h4>
+                    <p>Maximizes usable space by eliminating door swing areas, perfect for compact interiors and open-plan designs.</p>
+                </div>
+            </div>
+
+            <div class="janson-feature-item">
+                <div class="janson-feature-icon">✔</div>
+                <div>
+                    <h4><span>02</span> Smooth Operation</h4>
+                    <p>High-quality roller systems with precision bearings ensure effortless, silent sliding with minimal maintenance.</p>
+                </div>
+            </div>
+
+            <div class="janson-feature-item">
+                <div class="janson-feature-icon">⚙</div>
+                <div>
+                    <h4><span>03</span> Customization Options</h4>
+                    <p>Available in various glass types, frame styles, and track configurations to match any interior design requirement.</p>
+                </div>
+            </div>
+
+            <div class="janson-feature-item">
+                <div class="janson-feature-icon">⬛</div>
+                <div>
+                    <h4><span>04</span> Durable Construction</h4>
+                    <p>Manufactured from toughened glass and corrosion-resistant hardware for long-lasting performance and reliability.</p>
+                </div>
+            </div>
+
+            <div class="janson-feature-item">
+                <div class="janson-feature-icon">🏆</div>
+                <div>
+                    <h4><span>05</span> Modern Aesthetics</h4>
+                    <p>Sleek, minimalist designs that enhance visual appeal while maintaining functionality and ease of use.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- BNI BADGE -->
+        <div class="janson-feature-bni">
+            <!-- PROUD <br><strong>BNI</strong><br> MEMBER -->
+             <!-- <img src="slim-partition/img654.jpg" alt=""> -->
+        </div>
+
+    </div>
+</section>
+
+
+
+
+    <section class="glass-sliding-project-section" data-aos="zoom-in">
+        <div class="glass-sliding-project-container">
+            <div class="glass-sliding-project-left">
+                <div class="glass-sliding-project-subtitle">CORPORATE OFFICE PROJECT</div>
+                <h2 class="glass-sliding-project-title">Tech Company Headquarters</h2>
+                <p class="glass-sliding-project-text">
+                    A leading technology company required flexible workspace solutions for their new headquarters. Our frameless glass sliding partitions provided the perfect solution, creating adaptable meeting spaces while maintaining an open, collaborative environment.
                 </p>
-                <p class="slidingglass-project-text">
-                    The installation featured extra-large glass panels with minimal frames, allowing unobstructed views and maximum natural light. The sliding system included weather-resistant seals and smooth roller mechanisms for effortless operation.
+                <p class="glass-sliding-project-text">
+                    The installation featured custom-sized sliding panels with acoustic insulation and smooth pocket track systems. Special attention was given to noise reduction features and easy operation for frequent daily use by employees.
                 </p>
-                <p class="slidingglass-project-text">
-                    This project transformed the penthouse living experience by creating a seamless indoor-outdoor connection while providing excellent thermal insulation and security, receiving accolades from the homeowners and architectural team.
+                <p class="glass-sliding-project-text">
+                    This project successfully transformed 30,000 sq. ft. of office space into dynamic, flexible work areas that can be reconfigured based on daily needs while maintaining aesthetic consistency.
                 </p>
-                <ul class="slidingglass-project-list">
-                    <li>Project Type: Luxury Penthouse Terrace System</li>
-                    <li>Product Type: Frameless Glass Sliding Doors</li>
-                    <li>Special Features: Weather-Resistant Seals, Large Panels</li>
-                    <li>Project Completion Time: 8 Weeks</li>
+                <ul class="glass-sliding-project-list">
+                    <li>Project Type: Corporate Headquarters</li>
+                    <li>Product Type: Frameless Glass Sliding Partitions</li>
+                    <li>Special Features: Acoustic Insulation, Pocket Track</li>
+                    <li>Project Completion Time: 6 Weeks</li>
                 </ul>
             </div>
             
-            <div class="slidingglass-project-right">
-                <img src="Mini Double Door Lock With Key/4.jpeg" alt="Penthouse Glass Sliding Project">
+            <div class="glass-sliding-project-right">
+                <img src="glass-sliding/Fixed Glass Panel.jpg" alt="Office Glass Sliding Project">
             </div>
         </div>
     </section>
 
-    <section class="slidingglass-faq-section">
-        <h2 class="slidingglass-faq-title">GLASS SLIDING FAQS</h2>
-        <div class="slidingglass-faq-container">
-            <div class="slidingglass-faq-item">
-                <div class="slidingglass-faq-question">
-                    What is the maximum size for glass sliding doors?
-                    <span class="slidingglass-faq-icon">⌄</span>
+    <section class="glass-sliding-faq-section" data-aos="zoom-in">
+        <h2 class="glass-sliding-faq-title">GLASS SLIDING FAQS</h2>
+        <div class="glass-sliding-faq-container">
+            <div class="glass-sliding-faq-item">
+                <div class="glass-sliding-faq-question">
+                    What are the main types of glass sliding systems available?
+                    <span class="glass-sliding-faq-icon">⌄</span>
                 </div>
-                <div class="slidingglass-faq-answer">
-                    Our glass sliding doors can be manufactured up to 3 meters in height and 6 meters in width. For larger openings, we can create multi-panel systems with intermediate supports and specialized track systems to ensure smooth operation and structural integrity.
+                <div class="glass-sliding-faq-answer">
+                    We offer three main types: Frameless systems (minimal hardware, maximum visibility), Semi-framed (partial framing for added stability), and Fully-framed (complete aluminum framing). Additionally, we provide pocket sliding (doors disappear into walls), surface-mounted, and ceiling-hung systems for different applications.
                 </div>
             </div>
 
-            <div class="slidingglass-faq-item">
-                <div class="slidingglass-faq-question">
+            <div class="glass-sliding-faq-item">
+                <div class="glass-sliding-faq-question">
+                    How much weight can glass sliding systems support?
+                    <span class="glass-sliding-faq-icon">⌄</span>
+                </div>  
+                <div class="glass-sliding-faq-answer">
+                    Our standard systems support 60-100kg per panel depending on track type. Heavy-duty commercial systems can support 150-200kg per panel. Weight capacity depends on glass thickness, track quality, roller specifications, and installation method. We provide detailed specifications for each application.
+                </div>
+            </div>
+
+            <div class="glass-sliding-faq-item">
+                <div class="glass-sliding-faq-question">
                     Can glass sliding doors be soundproof?
-                    <span class="slidingglass-faq-icon">⌄</span>
+                    <span class="glass-sliding-faq-icon">⌄</span>
                 </div>
-                <div class="slidingglass-faq-answer">
-                    Yes, we offer acoustic glass sliding doors with specialized seals and double or triple glazing that provide excellent sound insulation. These systems can achieve STC ratings up to 45 dB, making them suitable for offices, conference rooms, and residential areas requiring noise control.
+                <div class="glass-sliding-faq-answer">
+                    Yes, we offer specialized acoustic sliding systems with laminated glass and special seals that provide up to 40-45 dB sound reduction. These systems feature overlapping panels, brush seals, and specialized tracks that minimize sound transmission while maintaining smooth operation.
                 </div>
             </div>
 
-            <div class="slidingglass-faq-item">
-                <div class="slidingglass-faq-question">
+            <div class="glass-sliding-faq-item">
+                <div class="glass-sliding-faq-question">
                     What maintenance do glass sliding systems require?
-                    <span class="slidingglass-faq-icon">⌄</span>
+                    <span class="glass-sliding-faq-icon">⌄</span>
                 </div>
-                <div class="slidingglass-faq-answer">
-                    Regular maintenance includes cleaning tracks monthly, lubricating rollers quarterly, and checking seals annually. The glass requires standard cleaning with mild soap solution. Our systems are designed for minimal maintenance with high-quality, durable components.
-                </div>
-            </div>
-
-            <div class="slidingglass-faq-item">
-                <div class="slidingglass-faq-question">
-                    Can sliding systems be motorized or automated?
-                    <span class="slidingglass-faq-icon">⌄</span>
-                </div>
-                <div class="slidingglass-faq-answer">
-                    Yes, we offer motorized and automated sliding systems with remote control, motion sensors, and smart home integration. These systems can be programmed for automatic opening/closing and can include safety features like obstacle detection and emergency manual operation.
+                <div class="glass-sliding-faq-answer">
+                    Regular cleaning of glass and tracks with mild detergent. Track cleaning every 3-6 months to remove debris. Roller lubrication with silicone spray annually. Check and tighten hardware annually. Avoid abrasive cleaners on glass and tracks. Our systems are designed for minimal maintenance with easy-access components.
                 </div>
             </div>
         </div>
-        <button class="slidingglass-faq-btn">View All FAQs</button>
+        <button class="glass-sliding-faq-btn">View All FAQs</button>
     </section>
+
+
+    
+
+
 
     <script>
-        function slidingglassProdOpenPopup(title, desc, img){
-            document.getElementById("slidingglassProdPopupTitle").innerText = title;
-            document.getElementById("slidingglassProdPopupDesc").innerText = desc;
-            document.getElementById("slidingglassProdPopupImg").src = img;
-            document.getElementById("slidingglassProdPopup").classList.add("active");
+        function glassSlidingProdOpenPopup(title, desc, img){
+            document.getElementById("glassSlidingProdPopupTitle").innerText = title;
+            document.getElementById("glassSlidingProdPopupDesc").innerText = desc;
+            document.getElementById("glassSlidingProdPopupImg").src = img;
+            document.getElementById("glassSlidingProdPopup").classList.add("active");
         }
 
-        function slidingglassProdClosePopup(){
-            document.getElementById("slidingglassProdPopup").classList.remove("active");
+        function glassSlidingProdClosePopup(){
+            document.getElementById("glassSlidingProdPopup").classList.remove("active");
         }
 
-        const slidingglassFaqItems = document.querySelectorAll(".slidingglass-faq-item");
-        slidingglassFaqItems.forEach(item => {
+        const glassSlidingFaqItems = document.querySelectorAll(".glass-sliding-faq-item");
+        glassSlidingFaqItems.forEach(item => {
             item.addEventListener("click", () => {
-                slidingglassFaqItems.forEach(i => {
+                glassSlidingFaqItems.forEach(i => {
                     if(i !== item){
                         i.classList.remove("active");
                     }
@@ -1102,5 +1672,99 @@
                 item.classList.toggle("active");
             });
         });
+
+ 
+const glassSlidingProducts = [
+  {
+    img:"slim-partition/8.jpg",
+    title:"Frameless Glass Sliding Door",
+    category:"Space Saving System",
+    price:"Custom Quote",
+    rating:"★★★★★ (4.9)",
+    desc:"Premium frameless glass sliding door system with smooth operation. Features high-quality rollers and tracks for silent, effortless movement.",
+    sizes:["Single Track","Double Track","Pocket Track","Custom"],
+    activeSize:"Custom",
+    colors:["#c6a98c","#ffffff","#1e90ff"]
+  },
+  {
+    img:"slim-partition/9.jpg",
+    title:"Office Glass Sliding Partition",
+    category:"Commercial System",
+    price:"Custom Quote",
+    rating:"★★★★☆ (4.7)",
+    desc:"Professional office sliding partition with acoustic features. Creates flexible workspaces while maintaining visual connectivity.",
+    sizes:["Single Track","Double Track","Ceiling Hung"],
+    activeSize:"Double Track",
+    colors:["#c6a98c","#1e90ff"]
+  },
+  {
+    img:"slim-partition/10.jpg",
+    title:"Pocket Glass Sliding System",
+    category:"Space Efficient Design",
+    price:"Custom Quote",
+    rating:"★★★★★ (5.0)",
+    desc:"Advanced pocket sliding system where doors disappear into walls. Perfect for space-constrained interiors and modern designs.",
+    sizes:["Single Panel","Double Panel","Custom"],
+    activeSize:"Double Panel",
+    colors:["#c6a98c","#ffffff"]
+  },
+  {
+    img:"slim-partition/11.jpg",
+    title:"Acoustic Glass Sliding Wall",
+    category:"Sound Insulation System",
+    price:"Custom Quote",
+    rating:"★★★★☆ (4.8)",
+    desc:"Specialized acoustic sliding system with enhanced sound insulation. Ideal for conference rooms and noisy environments.",
+    sizes:["Single Track","Double Track","Custom"],
+    activeSize:"Double Track",
+    colors:["#000000","#ffcc00"]
+  },
+  {
+    img:"slim-partition/12.jpg",
+    title:"Heavy Duty Glass Sliding",
+    category:"Commercial Grade",
+    price:"Custom Quote",
+    rating:"★★★★☆ (4.6)",
+    desc:"Industrial-grade sliding system for heavy glass panels and commercial applications. Features enhanced load capacity and durability.",
+    sizes:["Single Track","Double Track","Custom"],
+    activeSize:"Custom",
+    colors:["#c6a98c","#1e90ff"]
+  }
+];
+
+function changeGlassSlidingProduct(el){
+  const p = glassSlidingProducts[el.dataset.index];
+
+  document.getElementById("glassSlidingMainImg").src = p.img;
+  document.getElementById("glassSlidingTitle").innerText = p.title;
+  document.getElementById("glassSlidingCategory").innerText = p.category;
+  document.getElementById("glassSlidingPrice").innerText = p.price;
+  document.getElementById("glassSlidingRating").innerText = p.rating;
+  document.getElementById("glassSlidingDesc").innerText = p.desc;
+
+  const sizesBox = document.getElementById("glassSlidingSizes");
+  sizesBox.innerHTML = "<strong>Track Type:</strong><br>";
+  p.sizes.forEach(s=>{
+    const span = document.createElement("span");
+    span.innerText = s;
+    if(s === p.activeSize) span.classList.add("active");
+    sizesBox.appendChild(span);
+  });
+
+  const colorBox = document.getElementById("glassSlidingColors");
+  colorBox.innerHTML = "<strong>Glass Finish:</strong><br>";
+  p.colors.forEach(c=>{
+    const span = document.createElement("span");
+    span.style.background = c;
+    colorBox.appendChild(span);
+  });
+
+  document.querySelectorAll(".glass-sliding-thumbs img")
+    .forEach(img=>img.classList.remove("active"));
+  el.classList.add("active");
+}
+
+
+
     </script>
 <?php include "footer.php"?>

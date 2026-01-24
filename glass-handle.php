@@ -4,16 +4,15 @@
 
     <style>
         :root {
-            --primary-color: #121212;
-            --primary-light: #1E1E1E;
-            --secondary-color: #C6A98C;
-            --text-color: #E0E0E0;
-            --text-heading: #FFFFFF;
-            --light-color: #FFFFFF;
-            --bg-light: #1E1E1E;
-            --border-color: #333333;
+            --primary-color: #121212; /* Main Dark Background (Off-Black) */
+            --primary-light: #1E1E1E; /* Lighter Dark (For Cards/Sections) */
+            --secondary-color: #C6A98C; /* Elegant Beige/Tan Accent */
+            --text-color: #E0E0E0; /* Main Body Text (Soft Off-white) */
+            --text-heading: #FFFFFF; /* Headings (Pure White) */
+            --light-color: #FFFFFF; /* Pure White */
+            --bg-light: #1E1E1E; /* Replacing the light bg variable */
+            --border-color: #333333; /* Subtle Borders for separation */
             --font-primary: 'Poppins', sans-serif;
-            /* --handle-container-width: 1400px; */
             --border-radius-main: 5px;
             --shadow-light: 0 4px 15px rgba(0, 0, 0, 0.2);
             --shadow-medium: 0 8px 25px rgba(0, 0, 0, 0.4); 
@@ -33,22 +32,22 @@
             color: var(--text-color);
         }
 
-        /* HERO SECTION */
-        .handle-hero-section {
+        /* HERO SECTION (full image) - UNIQUE CLASS */
+        .glass-handle-hero-section {
             position: relative;
             width: 100%;
-            height: 360px;
+            height: 760px;
             overflow: hidden;
+            margin-top: -90px;
         }
 
-        .handle-hero-section img {
+        .glass-handle-hero-section img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            filter: brightness(0.5);
         }
 
-        .handle-hero-content {
+        .glass-handle-hero-content {
             position: absolute;
             inset: 0;
             display: flex;
@@ -58,7 +57,7 @@
             color: var(--light-color);
         }
 
-        .handle-hero-content h5 {
+        .glass-handle-hero-content h5 {
             font-size: 14px;
             letter-spacing: 2px;
             margin-bottom: 8px;
@@ -66,7 +65,7 @@
             color: var(--secondary-color);
         }
 
-        .handle-hero-content h1 {
+        .glass-handle-hero-content h1 {
             font-size: 48px;
             font-weight: 700;
             max-width: 600px;
@@ -74,48 +73,48 @@
             color: var(--text-heading);
         }
 
-        /* CONTENT BOX */
-        .handle-content-box {
+        /* WHITE CONTENT BOX - UNIQUE CLASS */
+        .glass-handle-content-box {
             background: var(--primary-light);
             width: 100%;
             padding: 60px 40px;
-            margin-top: -60px;
+            margin-top: -81px;
             position: relative;
             border-top: 1px solid var(--border-color);
         }
 
-        .handle-content-wrapper {
-            max-width: var(--handle-container-width);
+        .glass-handle-content-wrapper {
             margin: auto;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 50px;
         }
 
-        .handle-content-title {
+        .glass-handle-content-title {
             font-size: 34px;
             font-weight: 700;
             color: var(--text-heading);
         }
 
-        .handle-content-text {
+        .glass-handle-content-text {
             font-size: 15px;
             color: var(--text-color);
         }
 
         @media(max-width:900px) {
-            .handle-hero-content h1 {
+            .glass-handle-hero-content h1 {
                 font-size: 32px;
             }
 
-            .handle-content-wrapper {
+            .glass-handle-content-wrapper {
                 grid-template-columns: 1fr;
             }
         }
 
-        /* BENEFITS SECTION */
-        .handle-benefits-wrapper {
-            max-width: var(--handle-container-width);
+
+        /* BENEFITS SECTION - UNIQUE CLASS */
+        .glass-handle-benefits-wrapper {
+            /* max-width: 1400px; */
             margin: auto;
             display: flex;
             align-items: center;
@@ -125,8 +124,8 @@
             background: var(--primary-color);
         }
 
-        /* CARD STYLING */
-        .handle-card {
+        /* CARD STYLING - UNIQUE CLASS */
+        .glass-handle-card {
             width: 380px;
             background: var(--primary-light);
             padding: 55px 40px;
@@ -138,17 +137,17 @@
             transition: transform var(--transition-speed);
         }
 
-        .handle-card:hover {
+        .glass-handle-card:hover {
             transform: translateY(-5px);
             box-shadow: var(--shadow-medium);
         }
 
-        .handle-right-card {
+        .glass-handle-right-card {
             border: 2px solid var(--secondary-color);
         }
 
-        /* TAG LABEL */
-        .handle-tag {
+        /* TAG LABEL - UNIQUE CLASS */
+        .glass-handle-tag {
             position: absolute;
             top: 0;
             left: 0;
@@ -160,71 +159,72 @@
             font-weight: 600;
         }
 
-        /* ICON */
-        .handle-icon {
+        /* ICON - UNIQUE CLASS */
+        .glass-handle-icon {
             width: 65px;
             margin: 25px auto 20px auto;
             opacity: 0.9;
         }
 
-        /* TITLE */
-        .handle-card-title {
+        /* TITLE - UNIQUE CLASS */
+        .glass-handle-card-title {
             font-size: 22px;
             color: var(--text-heading);
             font-weight: 700;
             margin-bottom: 15px;
         }
 
-        .handle-card p {
+        .glass-handle-card p {
             font-size: 14.5px;
             color: var(--text-color);
             line-height: 1.65;
         }
 
-        /* PLUS SIGN */
-        .handle-plus {
+        /* PLUS SIGN - UNIQUE CLASS */
+        .glass-handle-plus {
             font-size: 48px;
             font-weight: 300;
             color: var(--secondary-color);
             margin-top: -20px;
         }
 
-        /* DOTTED LINE */
-        .handle-dotted-line {
+        /* DOTTED LINE - UNIQUE CLASS */
+        .glass-handle-dotted-line {
             height: 280px;
             border-right: 3px dotted var(--secondary-color);
             margin-right: -20px;
         }
 
         @media(max-width:1200px) {
-            .handle-benefits-wrapper {
+            .glass-handle-benefits-wrapper {
                 flex-direction: column;
             }
 
-            .handle-plus,
-            .handle-dotted-line {
+            .glass-handle-plus,
+            .glass-handle-dotted-line {
                 display: none;
             }
         }
 
-        /* MAIN SECTION */
-        .handle-main-section {
-            max-width: var(--handle-container-width);
+
+        /* MAIN SECTION - UNIQUE CLASS */
+        .glass-handle-main-section {
+            /* max-width: 1400px; */
             margin: auto;
             padding: 70px 85px;
             background: var(--primary-color);
         }
 
-        /* MAIN TITLE */
-        .handle-main-section h1 {
+        /* MAIN TITLE - UNIQUE CLASS */
+        .glass-handle-main-section h1 {
             font-size: 36px;
             color: var(--text-heading);
             font-weight: 700;
             margin-bottom: 25px;
         }
 
-        /* TOP PARAGRAPH */
-        .handle-main-section p {
+        /* TOP PARAGRAPH - UNIQUE CLASS */
+        .glass-handle-main-section p {
             font-size: 16px;
             color: var(--text-color);
             width: 95%;
@@ -233,8 +233,8 @@
             margin-bottom: 25px;
         }
 
-        /* DISCUSS LINK */
-        .handle-discuss-link {
+        /* DISCUSS LINK - UNIQUE CLASS */
+        .glass-handle-discuss-link {
             display: inline-flex;
             align-items: center;
             gap: 15px;
@@ -247,39 +247,39 @@
             transition: color var(--transition-speed);
         }
 
-        .handle-discuss-link:hover {
+        .glass-handle-discuss-link:hover {
             color: var(--text-heading);
         }
 
-        .handle-discuss-link .handle-line {
+        .glass-handle-discuss-link .glass-handle-line {
             width: 120px;
             border-bottom: 1px solid var(--secondary-color);
         }
 
-        /* IMAGE + CONTENT ROW */
-        .handle-row {
+        /* IMAGE + CONTENT ROW - UNIQUE CLASS */
+        .glass-handle-row {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
             gap: 50px;
         }
 
-        /* LEFT IMAGE */
-        .handle-left-img img {
+        /* LEFT IMAGE - UNIQUE CLASS */
+        .glass-handle-left-img img {
             width: 730px;
-            height: 487px;
+            /* height: 487px; */
             object-fit: cover;
             border-radius: var(--border-radius-main);
             border: 1px solid var(--border-color);
         }
 
-        /* RIGHT CONTENT */
-        .handle-right-content {
+        /* RIGHT CONTENT - UNIQUE CLASS */
+        .glass-handle-right-content {
             flex: 1;
             padding-top: 10px;
         }
 
-        .handle-right-content h5 {
+        .glass-handle-right-content h5 {
             font-size: 13px;
             color: var(--secondary-color);
             letter-spacing: 1px;
@@ -287,14 +287,14 @@
             text-transform: uppercase;
         }
 
-        .handle-right-content h2 {
+        .glass-handle-right-content h2 {
             font-size: 30px;
             color: var(--text-heading);
             margin-bottom: 20px;
             font-weight: 700;
         }
 
-        .handle-right-content p {
+        .glass-handle-right-content p {
             width: 100%;
             margin-bottom: 18px;
             line-height: 1.8;
@@ -302,14 +302,14 @@
             color: var(--text-color);
         }
 
-        /* BULLETS */
-        .handle-ul {
+        /* BULLETS - UNIQUE CLASS */
+        .glass-handle-ul {
             padding-left: 20px;
             margin-top: 10px;
             list-style: disc;
         }
 
-        .handle-ul li {
+        .glass-handle-ul li {
             margin-bottom: 8px;
             font-size: 15px;
             color: var(--text-color);
@@ -318,33 +318,34 @@
 
         /* RESPONSIVE */
         @media(max-width:1100px) {
-            .handle-row {
+            .glass-handle-row {
                 flex-direction: column;
             }
 
-            .handle-left-img img {
+            .glass-handle-left-img img {
                 width: 100%;
                 height: auto;
             }
 
-            .handle-main-section h1 {
+            .glass-handle-main-section h1 {
                 font-size: 30px;
             }
 
-            .handle-main-section {
+            .glass-handle-main-section {
                 padding: 50px 20px;
             }
         }
 
-    /* PRODUCTS SECTION */
-    .handle-prod-section{
-        max-width: var(--handle-container-width);
+
+    /* UNIQUE CONTAINER - RENAMED */
+    .glass-handle-prod-section{
+        /* max-width: 1400px; */
         margin: auto;
         padding: 40px 20px;
         background: var(--primary-color);
     }
 
-    .handle-prod-title{
+    .glass-handle-prod-title{
         text-align:center;
         margin-bottom:30px;
         color: var(--text-heading);
@@ -352,15 +353,15 @@
         font-weight:700;
     }
 
-    /* PRODUCT GRID */
-    .handle-prod-grid{
+    /* UNIQUE GRID - RENAMED */
+    .glass-handle-prod-grid{
         display:grid;
         grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
         gap:25px;
     }
 
-    /* PRODUCT CARD */
-    .handle-prod-card{
+    /* UNIQUE CARD - RENAMED */
+    .glass-handle-prod-card{
         background: var(--primary-light);
         border-radius: var(--border-radius-main);
         overflow:hidden;
@@ -370,34 +371,34 @@
         border: 1px solid var(--border-color);
     }
 
-    .handle-prod-card:hover{
+    .glass-handle-prod-card:hover{
         transform:translateY(-6px);
         box-shadow: var(--shadow-medium);
     }
 
-    .handle-prod-card-img{
+    .glass-handle-prod-card-img{
         width: 100%;
         height: 364px;
         object-fit: cover;
     }
 
-    .handle-prod-card-info{
+    .glass-handle-prod-card-info{
         padding:15px;
     }
 
-    .handle-prod-card-info h3{
+    .glass-handle-prod-card-info h3{
         font-size:20px;
         color: var(--text-heading);
         margin-bottom:5px;
     }
 
-    .handle-prod-card-info p{
+    .glass-handle-prod-card-info p{
         font-size:14px;
         color: var(--text-color);
     }
 
-    /* PRODUCT POPUP */
-    .handle-prod-popup{
+    /* UNIQUE POPUP - RENAMED */
+    .glass-handle-prod-popup{
         position:fixed;
         inset:0;
         display:none;
@@ -408,48 +409,48 @@
         z-index:9999;
     }
 
-    .handle-prod-popup.active{
+    .glass-handle-prod-popup.active{
         display:flex;
     }
 
-    .handle-prod-popup-box{
+    .glass-handle-prod-popup-box{
         background: var(--primary-light);
         width:100%;
         max-width:520px;
         border-radius: var(--border-radius-main);
         overflow:hidden;
-        animation:handleProdShow .3s ease;
+        animation:glassHandleProdShow .3s ease;
         border: 1px solid var(--border-color);
     }
 
-    @keyframes handleProdShow{
+    @keyframes glassHandleProdShow{
         from{opacity:0;transform:translateY(20px);}
         to{opacity:1;transform:translateY(0);}
     }
 
-    .handle-prod-popup-img{
+    .glass-handle-prod-popup-img{
         width:100%;
         height:280px;
         object-fit:cover;
     }
 
-    .handle-prod-popup-content{
+    .glass-handle-prod-popup-content{
         padding:20px;
     }
 
-    .handle-prod-popup-content h2{
+    .glass-handle-prod-popup-content h2{
         font-size:24px;
         margin-bottom:10px;
         color: var(--text-heading);
     }
 
-    .handle-prod-popup-content p{
+    .glass-handle-prod-popup-content p{
         font-size:15px;
         line-height:1.7;
         color: var(--text-color);
     }
 
-    .handle-prod-btn{
+    .glass-handle-prod-btn{
         display:inline-block;
         margin-top:15px;
         padding:10px 18px;
@@ -461,11 +462,11 @@
         transition: background-color var(--transition-speed);
     }
 
-    .handle-prod-btn:hover {
+    .glass-handle-prod-btn:hover {
         background-color: #b5987a;
     }
 
-    .handle-prod-close{
+    .glass-handle-prod-close{
         position:absolute;
         top:15px;
         right:25px;
@@ -474,20 +475,22 @@
         cursor:pointer;
     }
 
-    /* EXPORT SECTION */
-    .handle-export-section{
+
+    
+    /* SECTION WRAPPER - RENAMED */
+    .glass-handle-fund-section{
         width:100%;
         padding:60px 20px;
         background: var(--primary-color);
     }
 
-    .handle-export-container{
-        max-width: var(--handle-container-width);
+    .glass-handle-fund-container{
+        /* max-width: 1400px; */
         padding: 0px 50px;
         margin:auto;
     }
 
-    .handle-export-top-title{
+    .glass-handle-fund-top-title{
         font-size:14px;
         letter-spacing:1px;
         margin-bottom:15px;
@@ -495,7 +498,7 @@
         font-weight:600;
     }
 
-    .handle-export-heading{
+    .glass-handle-fund-heading{
         font-size:34px;
         font-weight:700;
         color: var(--text-heading);
@@ -503,7 +506,7 @@
         line-height:1.3;
     }
 
-    .handle-export-desc{
+    .glass-handle-fund-desc{
         font-size:15px;
         color: var(--text-color);
         line-height:1.7;
@@ -511,7 +514,7 @@
         margin-bottom:35px;
     }
 
-    .handle-export-link{
+    .glass-handle-fund-link{
         display:flex;
         align-items:center;
         gap:15px;
@@ -522,20 +525,20 @@
         text-decoration: none;
     }
 
-    .handle-export-line{
+    .glass-handle-fund-line{
         width:120px;
         border-bottom:1px solid var(--secondary-color);
     }
 
-    /* CARDS WRAP */
-    .handle-export-card-wrap{
+    /* CARDS WRAP - RENAMED */
+    .glass-handle-fund-card-wrap{
         display:flex;
         flex-wrap:wrap;
         gap:30px;
     }
 
-    /* CARD */
-    .handle-export-card{
+    /* CARD - RENAMED */
+    .glass-handle-fund-card{
         background: var(--primary-light);
         flex:1;
         min-width:420px;
@@ -547,52 +550,52 @@
         transition: transform var(--transition-speed);
     }
 
-    .handle-export-card:hover {
+    .glass-handle-fund-card:hover {
         transform: translateY(-5px);
         box-shadow: var(--shadow-medium);
     }
 
-    .handle-export-card-title{
+    .glass-handle-fund-card-title{
         font-size:26px;
         font-weight:700;
         margin-bottom:20px;
         color: var(--text-heading);
     }
 
-    .handle-export-card p{
+    .glass-handle-fund-card p{
         font-size:15px;
         line-height:1.7;
         color: var(--text-color);
         margin-bottom:30px;
     }
 
-    .handle-export-card hr{
+    .glass-handle-fund-card hr{
         border:none;
         height:1px;
         background: var(--border-color);
         margin-bottom:20px;
     }
 
-    .handle-export-card-subtitle{
+    .glass-handle-fund-card-subtitle{
         font-size:15px;
         font-weight:600;
         color: var(--secondary-color);
         margin-bottom:12px;
     }
 
-    /* LIST */
-    .handle-export-list{
+    /* LIST - RENAMED */
+    .glass-handle-fund-list{
         list-style:none;
         padding-left:0;
     }
 
-    .handle-export-list li{
+    .glass-handle-fund-list li{
         margin-bottom:8px;
         font-size:15px;
         color: var(--text-color);
     }
 
-    .handle-export-list li:before{
+    .glass-handle-fund-list li:before{
         content:"✔ ";
         color: var(--secondary-color);
         font-weight:700;
@@ -600,23 +603,24 @@
 
     /* RESPONSIVE */
     @media(max-width:900px){
-        .handle-export-card-wrap{
+        .glass-handle-fund-card-wrap{
             flex-direction:column;
         }
-        .handle-export-card{
+        .glass-handle-fund-card{
             min-width:100%;
         }
     }
 
-    /* PROJECT SECTION */
-    .handle-project-section{
+
+       /* MAIN WRAPPER - RENAMED */
+    .glass-handle-project-section{
         width:100%;
         padding:100px 20px;
         background: var(--primary-color);
     }
 
-    .handle-project-container{
-        max-width: 1350px;
+    .glass-handle-project-container{
+        max-width: 1550px;
         margin:auto;
         display:flex;
         justify-content:space-between;
@@ -624,12 +628,12 @@
         gap:50px;
     }
 
-    /* LEFT CONTENT */
-    .handle-project-left{
+    /* LEFT CONTENT - RENAMED */
+    .glass-handle-project-left{
         flex:1;
     }
 
-    .handle-project-subtitle{
+    .glass-handle-project-subtitle{
         font-size:14px;
         letter-spacing:1px;
         color: var(--secondary-color);
@@ -637,7 +641,7 @@
         font-weight:500;
     }
 
-    .handle-project-title{
+    .glass-handle-project-title{
         font-size:38px;
         color: var(--text-heading);
         font-weight:700;
@@ -645,7 +649,7 @@
         line-height:1.3;
     }
 
-    .handle-project-text{
+    .glass-handle-project-text{
         font-size:16px;
         line-height:1.8;
         color: var(--text-color);
@@ -653,21 +657,21 @@
         max-width:650px;
     }
 
-    /* BULLETS */
-    .handle-project-list{
+    /* BULLETS - RENAMED */
+    .glass-handle-project-list{
         margin-top:10px;
         list-style:none;
         padding-left:0;
     }
 
-    .handle-project-list li{
+    .glass-handle-project-list li{
         margin-bottom:10px;
         font-size:16px;
         color: var(--text-color);
         line-height:1.6;
     }
 
-    .handle-project-list li:before{
+    .glass-handle-project-list li:before{
         content:"• ";
         font-size:20px;
         line-height:1;
@@ -675,8 +679,8 @@
         font-weight:bold;
     }
 
-    /* RIGHT IMAGE */
-    .handle-project-right img{
+    /* RIGHT IMAGE - RENAMED */
+    .glass-handle-project-right img{
         width:650px;
         height:480px;
         object-fit:cover;
@@ -686,18 +690,135 @@
 
     /* RESPONSIVE */
     @media(max-width:1000px){
-        .handle-project-container{
+        .glass-handle-project-container{
             flex-direction:column;
         }
 
-        .handle-project-right img{
+        .glass-handle-project-right img{
             width:100%;
             height:auto;
         }
+
+        
     }
 
-    /* FAQ SECTION */
-    .handle-faq-section{
+
+
+     /* ===============================
+   JANSON GLASS HANDLE (EXACT)
+================================ */
+
+#jansonGlassHandleWrapper {
+    padding: 80px 5%;
+    background: var(--primary-color);
+    font-family: var(--font-primary);
+}
+
+.janson-glass-handle-inner {
+    max-width: 1450px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1.35fr 1fr 80px;
+    gap: 40px;
+    align-items: center;
+}
+
+/* COMMON BOX */
+.janson-glass-handle-box {
+    text-align: center;
+}
+
+/* IMAGE HOLDER */
+.janson-img-holder {
+    overflow: hidden;
+    border-radius: var(--border-radius-main);
+    box-shadow: var(--shadow-medium);
+}
+
+.janson-img-holder img {
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+/* BIG CENTER IMAGE */
+.big-img img {
+    height: 540px;
+}
+
+/* HOVER ZOOM */
+.janson-img-holder:hover img {
+    transform: scale(1.12);
+}
+
+/* LABEL */
+.janson-label {
+    margin-top: 18px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    color: var(--text-heading);
+}
+
+/* TOP LOGO */
+.janson-top-logo {
+    margin-bottom: 18px;
+    font-weight: 600;
+    color: var(--light-color);
+}
+
+.janson-logo-je {
+    font-size: 1.6rem;
+    margin-right: 6px;
+}
+
+.janson-logo-text {
+    color: var(--secondary-color);
+}
+
+/* BNI BADGE */
+.janson-bni-badge {
+    margin-top: 14px;
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 30px;
+    background: #c6a98c;
+    color: #fff;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+/* RIGHT VERTICAL STRIP */
+.janson-vertical-strip {
+    color: #fff;
+    font-weight: 700;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 6px;
+    letter-spacing: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+    .janson-glass-handle-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .janson-vertical-strip {
+        writing-mode: horizontal-tb;
+        transform: none;
+        margin-top: 20px;
+    }
+}
+
+
+    
+    /* SECTION BACKGROUND - RENAMED */
+    .glass-handle-faq-section{
         width:100%;
         background: var(--primary-light);
         color: var(--text-heading);
@@ -707,23 +828,23 @@
         border-bottom: 1px solid var(--border-color);
     }
 
-    /* MAIN TITLE */
-    .handle-faq-title{
+    /* MAIN TITLE - RENAMED */
+    .glass-handle-faq-title{
         font-size:40px;
         font-weight:700;
         margin-bottom:50px;
         letter-spacing:2px;
     }
 
-    /* FAQ CONTAINER */
-    .handle-faq-container{
+    /* FAQ CONTAINER - RENAMED */
+    .glass-handle-faq-container{
         max-width:1100px;
         margin:auto;
         text-align:left;
     }
 
-    /* FAQ ITEM */
-    .handle-faq-item{
+    /* FAQ ITEM - RENAMED */
+    .glass-handle-faq-item{
         width:100%;
         border-bottom:1px solid var(--border-color);
         padding:22px 10px;
@@ -732,11 +853,11 @@
         transition: background-color var(--transition-speed);
     }
 
-    .handle-faq-item:hover {
+    .glass-handle-faq-item:hover {
         background-color: rgba(198, 169, 140, 0.05);
     }
 
-    .handle-faq-question{
+    .glass-handle-faq-question{
         font-size:18px;
         font-weight:500;
         display:flex;
@@ -744,8 +865,8 @@
         align-items:center;
     }
 
-    /* PLUS / MINUS ICON */
-    .handle-faq-icon{
+    /* PLUS / MINUS ICON - RENAMED */
+    .glass-handle-faq-icon{
         font-size:26px;
         font-weight:700;
         transition:0.3s;
@@ -753,8 +874,8 @@
         color: var(--secondary-color);
     }
 
-    /* ANSWER CONTENT */
-    .handle-faq-answer{
+    /* ANSWER CONTENT - RENAMED */
+    .glass-handle-faq-answer{
         font-size:16px;
         color: var(--text-color);
         max-height:0;
@@ -764,18 +885,18 @@
         transition:max-height 0.4s ease;
     }
 
-    .handle-faq-item.active .handle-faq-answer{
+    .glass-handle-faq-item.active .glass-handle-faq-answer{
         margin-top:12px;
         max-height:300px;
     }
 
-    /* CHANGE ICON WHEN ACTIVE */
-    .handle-faq-item.active .handle-faq-icon{
+    /* CHANGE ICON WHEN ACTIVE - RENAMED */
+    .glass-handle-faq-item.active .glass-handle-faq-icon{
         transform:rotate(180deg);
     }
 
-    /* READ ALL BUTTON */
-    .handle-faq-btn{
+    /* READ ALL BUTTON - RENAMED */
+    .glass-handle-faq-btn{
         margin-top:50px;
         padding:12px 25px;
         border:1px solid var(--secondary-color);
@@ -788,10 +909,282 @@
         font-weight: 600;
     }
 
-    .handle-faq-btn:hover{
+    .glass-handle-faq-btn:hover{
         background: var(--secondary-color);
         color: var(--primary-color);
     }
+
+    @media (min-width:300px) and (max-width:700px){
+    .glass-handle-fund-container{
+        padding: 0px !important;
+    }
+}
+.glass-handle-hero-content h5{
+    color: white;
+    font-weight : 900;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.8);
+    margin-top: -60px;
+}
+
+
+/* ===============================
+   JANSON FEATURE SECTION
+================================ */
+
+#jansonFeatureSection {
+    padding: 90px 6%;
+    background: var(--primary-color);
+    font-family: var(--font-primary);
+}
+
+.janson-feature-wrapper {
+    max-width: 1450px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.2fr 80px 1fr;
+    gap: 40px;
+    position: relative;
+}
+
+/* IMAGE */
+.janson-feature-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.janson-feature-image img {
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+    transition: transform 0.7s ease;
+}
+
+.janson-feature-image:hover img {
+    transform: scale(1.12);
+}
+
+/* YELLOW CORNERS */
+.corner {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f5b400;
+}
+
+.tl { top: 15px; left: 15px; border-right: none; border-bottom: none; }
+.tr { top: 15px; right: 15px; border-left: none; border-bottom: none; }
+.bl { bottom: 15px; left: 15px; border-right: none; border-top: none; }
+.br { bottom: 15px; right: 15px; border-left: none; border-top: none; }
+
+/* RED CURVE */
+.janson-feature-curve {
+    border-left: 4px solid #c6a98c;
+    border-radius: 50%;
+}
+
+/* CONTENT */
+.janson-feature-content {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.janson-feature-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.janson-feature-icon {
+    width: 48px;
+    height: 48px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.janson-feature-item h4 {
+    margin: 0;
+    color: var(--text-heading);
+    font-size: 1.15rem;
+}
+
+.janson-feature-item h4 span {
+    color: var(--secondary-color);
+    margin-right: 10px;
+}
+
+.janson-feature-item p {
+    margin-top: 6px;
+    color: var(--text-color);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* BNI */
+.janson-feature-bni {
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    background: #c6a98c;
+    color: #fff;
+    padding: 18px 22px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .janson-feature-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .janson-feature-curve {
+        display: none;
+    }
+
+    .janson-feature-bni {
+        position: static;
+        margin-top: 30px;
+    }
+}
+
+
+.glass-handle-product-slider{
+display:flex;
+gap:40px;
+padding:60px;
+align-items:center;
+}
+
+/* LEFT */
+.glass-handle-product-images{
+position:relative;
+flex:1;
+background:linear-gradient(145deg,#0d0d0d,#1c1c1c);
+border-radius:12px;
+padding:40px;
+text-align:center;
+}
+
+.glass-handle-stock{
+position:absolute;
+top:20px;
+left:20px;
+opacity:0.3;
+letter-spacing:2px;
+}
+
+.glass-handle-main-img{
+width:80%;
+transition:0.3s;
+}
+
+.glass-handle-thumbs{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-top:20px;
+flex-wrap:wrap;
+}
+
+.glass-handle-thumbs img{
+width:60px;
+cursor:pointer;
+opacity:0.6;
+border-radius:8px;
+}
+
+.glass-handle-thumbs img.active,
+.glass-handle-thumbs img:hover{
+opacity:1;
+transform:scale(1.1);
+}
+
+/* RIGHT */
+.glass-handle-product-info{
+flex:1;
+background:var(--primary-light);
+padding:35px;
+border-radius:12px;
+box-shadow:var(--shadow-medium);
+}
+
+.glass-handle-product-title{
+font-size:26px;
+color:var(--text-heading);
+}
+
+.glass-handle-category{
+font-size:13px;
+opacity:0.7;
+}
+
+.glass-handle-price{
+font-size:28px;
+margin:12px 0;
+color:var(--secondary-color);
+}
+
+.glass-handle-rating{
+color:gold;
+margin-bottom:12px;
+}
+
+.glass-handle-desc{
+font-size:14px;
+line-height:1.6;
+margin-bottom:18px;
+color:var(--text-color);
+}
+
+.glass-handle-sizes span{
+display:inline-block;
+border:1px solid var(--border-color);
+padding:6px 10px;
+margin:6px 6px 0 0;
+cursor:pointer;
+border-radius:6px;
+}
+
+.glass-handle-sizes span.active{
+background:var(--secondary-color);
+color:#000;
+}
+
+.glass-handle-colors span{
+display:inline-block;
+width:18px;
+height:18px;
+border-radius:50%;
+margin:8px 8px 0 0;
+border:1px solid #555;
+}
+
+.glass-handle-cart-btn{
+margin-top:22px;
+width:100%;
+padding:12px;
+background:var(--secondary-color);
+border:none;
+font-weight:600;
+cursor:pointer;
+border-radius:var(--border-radius-main);
+}
+
+@media(max-width:900px){
+.glass-handle-product-slider{
+flex-direction:column;
+}
+}
+
 
     </style>
 </head>
@@ -799,21 +1192,21 @@
 <body>
 
     <!-- HERO IMAGE SECTION -->
-    <section class="handle-hero-section">
-        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1600" alt="Glass Handle Background">
-        <div class="handle-hero-content">
+    <section class="glass-handle-hero-section"  data-aos="zoom-in">
+        <img src="slim-partition/WhatsApp Image 2025-12-24 at 6.30.17 PM (1).jpeg" alt="Glass Handle Background">
+        <div class="glass-handle-hero-content">
             <h5>GLASS HANDLE SYSTEMS</h5>
-            <h1>PREMIUM GLASS HANDLES FOR ELEGANT DOOR & PARTITION SYSTEMS</h1>
+            <h1>ELEGANT DOOR HANDLES FOR MODERN GLASS ARCHITECTURE</h1>
         </div>
     </section>
 
     <!-- CONTENT BOX SECTION -->
-    <section class="handle-content-box">
-        <div class="handle-content-wrapper">
+    <section class="glass-handle-content-box"  data-aos="zoom-in">
+        <div class="glass-handle-content-wrapper">
             <div>
-                <h2 class="handle-content-title">GLASS HANDLE MANUFACTURER IN INDIA</h2>
+                <h2 class="glass-handle-content-title">GLASS HANDLE MANUFACTURER IN INDIA</h2>
             </div>
-            <div class="handle-content-text">
+            <div class="glass-handle-content-text">
                 <p>
                     As one of the leading Glass Handle manufacturers, we pride ourselves on offering a premium range of door and partition handles that marry superior functionality with refined aesthetics. We truly design our glass handles with precision and elegance, ensuring that they perfectly complement modern interiors while providing exceptional grip, durability, and performance.
                 </p>
@@ -827,45 +1220,94 @@
         </div>
     </section>
 
-    <div class="handle-benefits-wrapper">
+    <div class="glass-handle-benefits-wrapper">
         <!-- CARD 1 -->
-        <div class="handle-card">
-            <div class="handle-tag">Benefits</div>
-            <img class="handle-icon" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
-            <div class="handle-card-title">ELEGANT DESIGN</div>
+        <div class="glass-handle-card"  data-aos="zoom-in">
+            <div class="glass-handle-tag">Benefits</div>
+            <img class="glass-handle-icon" src="https://cdn-icons-png.flaticon.com/512/992/992651.png">
+            <div class="glass-handle-card-title">ELEGANT DESIGN</div>
             <p>
-                Enhances the sophistication of glass doors with sleek, contemporary styling. Made of high-quality materials that are resistant to rust, wear, and corrosion for durable construction.
+                Enhances the sophistication of glass doors with sleek, contemporary styling. Durable Construction: Made of high-quality materials that are resistant to rust, wear, and corrosion.
             </p>
         </div>
 
         <!-- PLUS SIGN -->
-        <div class="handle-plus">+</div>
+        <div class="glass-handle-plus">+</div>
 
         <!-- CARD 2 -->
-        <div class="handle-card">
-            <div class="handle-tag">Benefits</div>
-            <img class="handle-icon" src="https://cdn-icons-png.flaticon.com/512/3022/3022553.png">
-            <div class="handle-card-title">COMFORTABLE GRIP</div>
+        <div class="glass-handle-card" data-aos="zoom-in">
+            <div class="glass-handle-tag">Benefits</div>
+            <img class="glass-handle-icon" src="https://cdn-icons-png.flaticon.com/512/3430/3430447.png">
+            <div class="glass-handle-card-title">COMFORT & VERSATILITY</div>
             <p>
-                Ergonomically designed for smooth and firm handling. Suitable for office partitions, shower enclosures, main entrances, and glass cabinets with diverse applications.
+                Comfortable Grip: Ergonomically designed for smooth and firm handling. Diverse uses: suitable for office partitions, shower enclosures, main entrances, and glass cabinets.
             </p>
         </div>
 
         <!-- DOTTED LINE -->
-        <div class="handle-dotted-line"></div>
+        <div class="glass-handle-dotted-line"  data-aos="zoom-in"></div>
 
         <!-- CARD 3 -->
-        <div class="handle-card handle-right-card">
-            <div class="handle-tag">Benefits</div>
-            <img class="handle-icon" src="https://cdn-icons-png.flaticon.com/512/3033/3033143.png">
-            <div class="handle-card-title">EASY INSTALLATION</div>
+        <div class="glass-handle-card glass-handle-right-card" data-aos="zoom-in">
+            <div class="glass-handle-tag">Applications</div>
+            <img class="glass-handle-icon" src="https://cdn-icons-png.flaticon.com/512/456/456177.png">
+            <div class="glass-handle-card-title">VERSATILE APPLICATIONS</div>
             <p>
-                Designed for quick fitting on framed and frameless glass doors. The shine and finish last for years with very little upkeep, offering various custom options for different design themes.
+                Easy Installation: Designed for quick fitting on framed and frameless glass doors. Custom options include various shapes, sizes, and finishes that would fit different kinds of design themes.
             </p>
         </div>
     </div>
 
-    <section class="handle-main-section">
+<section class="janson-glass-handle-wrapper" id="jansonGlassHandleWrapper">
+    <div class="janson-glass-handle-inner">
+
+        <!-- LEFT IMAGE -->
+        <div class="janson-glass-handle-box janson-left-box">
+            <div class="janson-img-holder">
+                <img src="GLASS-HANDLE/Brass Glass Handle-2.jpg" alt="Stainless Steel Glass Handle">
+            </div>
+            <p class="janson-label">STAINLESS STEEL</p>
+        </div>
+
+        <!-- CENTER IMAGE -->
+        <div class="janson-glass-handle-box janson-center-box">
+
+            <div class="janson-top-logo">
+                <span class="janson-logo-je">JE</span>
+                <span class="janson-logo-text">JANSON EXPORTS</span>
+            </div>
+
+            <div class="janson-img-holder big-img">
+                <img src="GLASS-HANDLE/brass-handle.webp" alt="Brass Glass Handle">
+            </div>
+            <p class="janson-label">BRASS HANDLE</p>
+
+            <div class="janson-bni-badge">BNI MEMBER</div>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="janson-glass-handle-box janson-right-box">
+            <div class="janson-img-holder">
+                <img src="GLASS-HANDLE/aluminum-door-handle-500x500.jpg" alt="Aluminum Glass Handle">
+            </div>
+            <p class="janson-label">ALUMINUM HANDLE</p>
+        </div>
+
+        <!-- RIGHT VERTICAL BAR -->
+        <div class="janson-vertical-strip">
+            <span>GLASS HANDLE</span>
+            <span>SUBCATEGORIES</span>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+    
+
+    <section class="glass-handle-main-section"  data-aos="zoom-in">
         <h1>GLASS HANDLE SUPPLIER IN INDIA</h1>
         <p>
             As a reputed Glass Handle supplier, we are dedicated to providing premium-quality hardware solutions that elevate the aesthetic and functional appeal of modern spaces. With an extensive supply network, we assure prompt and reliable delivery for projects of all scales, from boutique interiors to large commercial developments.
@@ -874,32 +1316,32 @@
             We closely collaborate with architects, contractors, and designers to deliver customized products that cater to the needs of each project and design vision. Every handle supplied is tested for strength, finish, and precision to ensure performance over time and satisfy the customer.
         </p>
 
-        <a href="#" class="handle-discuss-link">
+        <a href="contact.php" class="glass-handle-discuss-link">
             Request a Quote
-            <div class="handle-line"></div>
+            <div class="glass-handle-line"></div>
         </a>
 
         <!-- MAIN ROW -->
-        <div class="handle-row">
+        <div class="glass-handle-row"  data-aos="zoom-in">
             <!-- LEFT IMAGE -->
-            <div class="handle-left-img">
-                <img src="drive-download-20251210T094305Z-3-001/KADH 01, WAVES BRONZE, 300 _350 _ Klazovyn/1.jpeg" alt="Glass Handle Installation">
+            <div class="glass-handle-left-img">
+                <img src="GLASS-HANDLE/Premium Glass Handle Solutions.jpg" alt="Glass Handle Installation">
             </div>
 
             <!-- RIGHT CONTENT -->
-            <div class="handle-right-content">
+            <div class="glass-handle-right-content">
                 <h5>KEY FEATURES</h5>
                 <h2>Premium Glass Handle Solutions</h2>
                 <p>
-                    Our glass handles are constructed from premium-grade stainless steel, brass, or aluminum with corrosion and scratch-resistant finishes. Available in mirror, matte, satin, and antique finishes to match any interior design scheme.
+                    Our glass handles are constructed from premium-grade stainless steel, brass, or aluminum with corrosion and scratch-resistant finishes. Available in mirror, matte, satin, and antique finishes to match any interior design theme.
                 </p>
                 <p>
-                    Designed with ergonomic and slip-resistant features, our handles are compatible with both single and double glass door configurations. We offer custom lengths and diameters to meet specific project requirements.
+                    Designed to be compatible with single and double glass door configurations, our handles feature ergonomic and slip-resistant design. Available in custom lengths and diameters with seamless fit for glass thickness variations.
                 </p>
                 <p>
-                    With seamless fit for glass thickness variations and design focused on durability and long service life, our glass handles provide the perfect finishing touch for modern door and partition systems.
+                    Our expert team works closely with clients to provide hardware solutions that combine durability, aesthetics, and long service life for modern architectural projects.
                 </p>
-                <ul class="handle-ul">
+                <ul class="glass-handle-ul">
                     <li>Constructed from premium-grade stainless steel, brass, or aluminum</li>
                     <li>Corrosion and scratch-resistant finish</li>
                     <li>Available in mirror, matte, satin, and antique finishes</li>
@@ -913,188 +1355,316 @@
         </div>
     </section>
     
-    <div class="handle-prod-section">
-        <h2 class="handle-prod-title">OUR GLASS HANDLE PRODUCTS</h2>
-        <div class="handle-prod-grid">
+    <div class="glass-handle-prod-section">
+        <h2 class="glass-handle-prod-title">OUR GLASS HANDLE PRODUCTS</h2>
+        <div class="glass-handle-prod-grid">
             <!-- CARD 1 -->
-            <div class="handle-prod-card" onclick="handleProdOpenPopup('Stainless Steel Glass Handle','Premium stainless steel glass handle with mirror finish. Elegant and durable for modern interiors.','drive-download-20251210T094305Z-3-001/H handle 18 inches/1.jpeg')">
-                <img class="handle-prod-card-img" src="drive-download-20251210T094305Z-3-001/H handle 18 inches/1.jpeg">
-                <div class="handle-prod-card-info">
+            <div class="glass-handle-prod-card" onclick="glassHandleProdOpenPopup('Stainless Steel Glass Handle','Premium stainless steel handle for glass doors. Corrosion-resistant and elegant design.','GLASS-HANDLE/Stainless Steel Handle.jpg')" data-aos="zoom-in"> 
+                <img class="glass-handle-prod-card-img" src="GLASS-HANDLE/Stainless Steel Handle.jpg">
+                <div class="glass-handle-prod-card-info">
                     <h3>Stainless Steel Handle</h3>
-                    <p>Mirror finish elegance</p>
+                    <p>Premium stainless steel construction</p>
                 </div>
             </div>
 
             <!-- CARD 2 -->
-            <div class="handle-prod-card" onclick="handleProdOpenPopup('Brass Glass Handle','Premium brass glass handle with antique finish. Traditional elegance for modern doors.','drive-download-20251210T094305Z-3-001/KADH 01, WAVES BRONZE, 300 _350 _ Klazovyn/1.jpeg')">
-                <img class="handle-prod-card-img" src="drive-download-20251210T094305Z-3-001/KADH 01, WAVES BRONZE, 300 _350 _ Klazovyn/1.jpeg">
-                <div class="handle-prod-card-info">
+            <div class="glass-handle-prod-card" onclick="glassHandleProdOpenPopup('Brass Glass Handle','Elegant brass handle with antique finish. Perfect for luxury interiors.','GLASS-HANDLE/Factory-Price-Stainless-Steel-Shower-Glass-Door-Handle-for-Glass-Door-Pull-Handle.avif')" data-aos="zoom-in">
+                <img class="glass-handle-prod-card-img" src="GLASS-HANDLE/Factory-Price-Stainless-Steel-Shower-Glass-Door-Handle-for-Glass-Door-Pull-Handle.avif">
+                <div class="glass-handle-prod-card-info">
                     <h3>Brass Glass Handle</h3>
-                    <p>Antique finish tradition</p>
+                    <p>Luxury brass with antique finish</p>
                 </div>
             </div>
 
             <!-- CARD 3 -->
-            <div class="handle-prod-card" onclick="handleProdOpenPopup('Aluminum Glass Handle','Lightweight aluminum glass handle with matte finish. Modern minimalist design.','https://images.unsplash.com/photo-1560448204-e02f11c3d0e2')">
-                <img class="handle-prod-card-img" src="drive-download-20251210T094305Z-3-001/KADH 01, WAVES BRONZE, 300_350,/1.jpeg">
-                <div class="handle-prod-card-info">
+            <div class="glass-handle-prod-card" onclick="glassHandleProdOpenPopup('Aluminum Glass Handle','Lightweight aluminum handle with modern design. Durable and stylish solution.','GLASS-HANDLE/ALUMINUM HANDLE.avif')" data-aos="zoom-in">
+                <img class="glass-handle-prod-card-img" src="GLASS-HANDLE/ALUMINUM HANDLE.avif">
+                <div class="glass-handle-prod-card-info">
                     <h3>Aluminum Glass Handle</h3>
-                    <p>Matte finish minimalism</p>
+                    <p>Lightweight and modern design</p>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- POPUP -->
-    <div class="handle-prod-popup" id="handleProdPopup">
-        <span class="handle-prod-close" onclick="handleProdClosePopup()">&times;</span>
-        <div class="handle-prod-popup-box">
-            <img id="handleProdPopupImg" class="handle-prod-popup-img">
-            <div class="handle-prod-popup-content">
-                <h2 id="handleProdPopupTitle"></h2>
-                <p id="handleProdPopupDesc"></p>
-                <a href="#" class="handle-prod-btn">Enquire Now</a>
+    <div class="glass-handle-prod-popup" id="glassHandleProdPopup">
+        <span class="glass-handle-prod-close" onclick="glassHandleProdClosePopup()">&times;</span>
+        <div class="glass-handle-prod-popup-box">
+            <img id="glassHandleProdPopupImg" class="glass-handle-prod-popup-img">
+            <div class="glass-handle-prod-popup-content">
+                <h2 id="glassHandleProdPopupTitle"></h2>
+                <p id="glassHandleProdPopupDesc"></p>
+                <a href="contact.php" class="glass-handle-prod-btn">Enquire Now</a>
             </div>
         </div>
     </div>
 
-    <section class="handle-export-section">
-        <div class="handle-export-container">
-            <div class="handle-export-top-title">EXPORT QUALITY</div>
-            <h2 class="handle-export-heading">GLASS HANDLE EXPORTER IN INDIA</h2>
-            <p class="handle-export-desc">
+    <section class="glass-handle-fund-section" data-aos="zoom-in">
+        <div class="glass-handle-fund-container">
+            <div class="glass-handle-fund-top-title">EXPORT QUALITY</div>
+            <h2 class="glass-handle-fund-heading">GLASS HANDLE EXPORTER IN INDIA</h2>
+            <p class="glass-handle-fund-desc">
                 Being one of the trusted Glass Handle exporters, we export top-quality architectural hardware products to international clients who need elegant and durable door solutions. Our export-ready handles are made with precision, based on international design and performance norms.
             </p>
             
-            <a href="#" class="handle-export-link">
+            <a href="contact.php" class="glass-handle-fund-link">
                 International Enquiries
-                <div class="handle-export-line"></div>
+                <div class="glass-handle-fund-line"></div>
             </a>
 
-            <div class="handle-export-card-wrap">
-                <div class="handle-export-card">
-                    <div class="handle-export-card-title">Global Standards</div>
+            <div class="glass-handle-fund-card-wrap">
+                <div class="glass-handle-fund-card">
+                    <div class="glass-handle-fund-card-title">Global Standards</div>
                     <p>
-                        We export to almost all global markets, with designs and finishes according to various cultural and architectural preferences. Every export consignment is being stringently inspected and safely packed.
+                        We export to almost all global markets, with designs and finishes according to various cultural and architectural preferences. Every export consignment is being stringently inspected and safely packed to ensure flawless delivery.
                     </p>
                     <hr>
-                    <div class="handle-export-card-subtitle">Our Export Advantages:</div>
-                    <ul class="handle-export-list">
-                        <li>Based on international design norms</li>
-                        <li>Compliance with global performance standards</li>
+                    <div class="glass-handle-fund-card-subtitle">Our Export Advantages:</div>
+                    <ul class="glass-handle-fund-list">
+                        <li>Precision manufacturing to international norms</li>
+                        <li>Designs for global architectural preferences</li>
+                        <li>Stringent quality inspection process</li>
                         <li>Safe packaging for international transit</li>
-                        <li>Stringent quality inspections</li>
                     </ul>
                 </div>
 
-                <div class="handle-export-card">
-                    <div class="handle-export-card-title">International Recognition</div>
+                <div class="glass-handle-fund-card">
+                    <div class="glass-handle-fund-card-title">International Markets</div>
                     <p>
                         Our commitment to innovation, reliability, and craftsmanship has earned us a preferred exporter status among global partners who respect both style and substance in every detail.
                     </p>
                     <hr>
-                    <div class="handle-export-card-subtitle">Global Market Reach:</div>
-                    <ul class="handle-export-list">
-                        <li>Export to all global markets</li>
-                        <li>Preferred exporter status worldwide</li>
-                        <li>Cultural and architectural preferences catered</li>
-                        <li>Commitment to innovation and craftsmanship</li>
+                    <div class="glass-handle-fund-card-subtitle">Global Reach:</div>
+                    <ul class="glass-handle-fund-list">
+                        <li>Commercial office spaces worldwide</li>
+                        <li>Luxury residential projects</li>
+                        <li>Hospitality and hotel industry</li>
+                        <li>Retail and showroom installations</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="handle-project-section">
-        <div class="handle-project-container">
-            <div class="handle-project-left">
-                <div class="handle-project-subtitle">LUXURY OFFICE PROJECT</div>
-                <h2 class="handle-project-title">Corporate Headquarters Glass Partition System</h2>
-                <p class="handle-project-text">
-                    A multinational corporation required premium glass handles for their new headquarters featuring extensive glass partition systems. Our custom-designed stainless steel handles were selected for their elegant appearance and superior functionality.
+
+    <!-- <section class="glass-handle-product-slider" data-aos="zoom-in">
+
+  
+  <div class="glass-handle-product-images">
+    <span class="glass-handle-stock">IN STOCK</span>
+
+    <img src="slim-partition/8.jpg" class="glass-handle-main-img" id="glassHandleMainImg">
+
+    <div class="glass-handle-thumbs">
+      <img src="slim-partition/8.jpg" class="active" data-index="0" onclick="changeGlassHandleProduct(this)">
+      <img src="slim-partition/9.jpg" data-index="1" onclick="changeGlassHandleProduct(this)">
+      <img src="slim-partition/10.jpg" data-index="2" onclick="changeGlassHandleProduct(this)">
+      <img src="slim-partition/11.jpg" data-index="3" onclick="changeGlassHandleProduct(this)">
+      <img src="slim-partition/12.jpg" data-index="4" onclick="changeGlassHandleProduct(this)">
+    </div>
+  </div>
+
+  
+  <div class="glass-handle-product-info">
+
+    <h3 class="glass-handle-product-title" id="glassHandleTitle">Stainless Steel Glass Handle</h3>
+    <span class="glass-handle-category" id="glassHandleCategory">Architectural Hardware</span>
+
+    <div class="glass-handle-price" id="glassHandlePrice">Custom Quote</div>
+
+    <div class="glass-handle-rating" id="glassHandleRating">★★★★★ (4.9)</div>
+
+    <p class="glass-handle-desc" id="glassHandleDesc">
+      Premium stainless steel glass handle with corrosion-resistant finish. Features ergonomic design for comfortable grip and elegant appearance.
+    </p>
+
+    <div class="glass-handle-sizes" id="glassHandleSizes">
+      <strong>Length:</strong><br>
+      <span>200mm</span><span>250mm</span><span>300mm</span>
+      <span class="active">Custom</span>
+    </div>
+
+    <div class="glass-handle-colors" id="glassHandleColors">
+      <strong>Finish:</strong><br>
+      <span style="background:#c6a98c"></span>
+      <span style="background:#ffffff"></span>
+      <span style="background:#1e90ff"></span>
+    </div>
+
+    <button class="glass-handle-cart-btn">+ REQUEST QUOTE</button>
+
+  </div>
+
+</section> -->
+
+    <section class="janson-feature-section" id="jansonFeatureSection">
+    <div class="janson-feature-wrapper">
+
+        <!-- LEFT IMAGE -->
+        <div class="janson-feature-image">
+            <img src="GLASS-HANDLE/commercial-glass-door-handle59132763167-mix.webp" alt="Glass Handle Installation">
+            <span class="corner tl"></span>
+            <span class="corner tr"></span>
+            <span class="corner bl"></span>
+            <span class="corner br"></span>
+        </div>
+
+        <!-- CURVE LINE -->
+        <div class="janson-feature-curve"></div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="janson-feature-content">
+
+            <div class="janson-feature-item">
+                <div class="janson-feature-icon">👤</div>
+                <div>
+                    <h4><span>01</span> Ergonomic Design</h4>
+                    <p>Carefully engineered for comfortable grip and smooth handling, reducing hand fatigue during frequent use.</p>
+                </div>
+            </div>
+
+            <div class="janson-feature-item">
+                <div class="janson-feature-icon">✔</div>
+                <div>
+                    <h4><span>02</span> Corrosion Resistance</h4>
+                    <p>High-grade materials with special finishes provide excellent resistance to rust, wear, and environmental factors.</p>
+                </div>
+            </div>
+
+            <div class="janson-feature-item">
+                <div class="janson-feature-icon">⚙</div>
+                <div>
+                    <h4><span>03</span> Easy Installation</h4>
+                    <p>Designed for quick and secure fitting on both framed and frameless glass doors with minimal tools required.</p>
+                </div>
+            </div>
+
+            <div class="janson-feature-item">
+                <div class="janson-feature-icon">⬛</div>
+                <div>
+                    <h4><span>04</span> Material Excellence</h4>
+                    <p>Manufactured from premium stainless steel, brass, and aluminum for strength, durability, and aesthetic appeal.</p>
+                </div>
+            </div>
+
+            <div class="janson-feature-item">
+                <div class="janson-feature-icon">🏆</div>
+                <div>
+                    <h4><span>05</span> Aesthetic Variety</h4>
+                    <p>Available in multiple finishes including mirror, matte, satin, and antique to complement any interior design.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- BNI BADGE -->
+        <div class="janson-feature-bni">
+            <!-- PROUD <br><strong>BNI</strong><br> MEMBER -->
+             <!-- <img src="slim-partition/img654.jpg" alt=""> -->
+        </div>
+
+    </div>
+</section>
+
+
+
+
+    <section class="glass-handle-project-section" data-aos="zoom-in">
+        <div class="glass-handle-project-container">
+            <div class="glass-handle-project-left">
+                <div class="glass-handle-project-subtitle">LUXURY HOTEL PROJECT</div>
+                <h2 class="glass-handle-project-title">Five-Star Hotel Glass Door Installation</h2>
+                <p class="glass-handle-project-text">
+                    A luxury hotel chain required premium glass handles for their extensive glass door systems throughout the property. Our stainless steel and brass handles were selected for their elegant appearance and durability.
                 </p>
-                <p class="handle-project-text">
-                    The project featured 500+ custom-length handles with satin finish that perfectly complemented the frameless glass partitions. Each handle was precision-engineered for ergonomic grip and easy installation on 10mm tempered glass.
+                <p class="glass-handle-project-text">
+                    The installation featured custom-length handles with special satin and antique finishes to match the hotel's interior design theme. Special attention was given to ergonomic design for guest comfort and slip-resistant features for safety.
                 </p>
-                <p class="handle-project-text">
-                    This project created a cohesive, elegant appearance throughout the office space while ensuring durability and comfort for daily use, receiving accolades from the architectural team and corporate management.
+                <p class="glass-handle-project-text">
+                    This project successfully equipped 200+ glass doors across the hotel with premium handles that have maintained their finish and functionality despite heavy daily use.
                 </p>
-                <ul class="handle-project-list">
-                    <li>Project Type: Corporate Headquarters Glass System</li>
-                    <li>Product Type: Custom Stainless Steel Glass Handles</li>
-                    <li>Special Features: Satin Finish, Ergonomic Design</li>
-                    <li>Quantity Installed: 500+ units</li>
+                <ul class="glass-handle-project-list">
+                    <li>Project Type: Luxury Hotel Installation</li>
+                    <li>Product Type: Stainless Steel & Brass Handles</li>
+                    <li>Special Features: Custom Lengths, Special Finishes</li>
+                    <li>Project Completion Time: 3 Weeks</li>
                 </ul>
             </div>
             
-            <div class="handle-project-right">
-                <img src="drive-download-20251210T094305Z-3-001/KRDH 222, ZEAL, FINISH CP+MAB, TOTAL 450 MM , H TO H 320 MM/1.jpeg" alt="Office Glass Handle Project">
+            <div class="glass-handle-project-right">
+                <img src="GLASS-HANDLE/Five-Star Hotel Glass Door Installation.jpg" alt="Hotel Glass Handle Project">
             </div>
         </div>
     </section>
 
-    <section class="handle-faq-section">
-        <h2 class="handle-faq-title">GLASS HANDLE FAQS</h2>
-        <div class="handle-faq-container">
-            <div class="handle-faq-item">
-                <div class="handle-faq-question">
-                    What materials are used for glass handles?
-                    <span class="handle-faq-icon">⌄</span>
+    <section class="glass-handle-faq-section" data-aos="zoom-in">
+        <h2 class="glass-handle-faq-title">GLASS HANDLE FAQS</h2>
+        <div class="glass-handle-faq-container">
+            <div class="glass-handle-faq-item">
+                <div class="glass-handle-faq-question">
+                    What materials are best for glass door handles?
+                    <span class="glass-handle-faq-icon">⌄</span>
                 </div>
-                <div class="handle-faq-answer">
-                    We use premium-grade 304 stainless steel, solid brass, and high-quality aluminum for our glass handles. Each material is selected for its durability, corrosion resistance, and aesthetic appeal, with various finishes available including mirror, satin, matte, and antique.
-                </div>
-            </div>
-
-            <div class="handle-faq-item">
-                <div class="handle-faq-question">
-                    Can glass handles be customized for specific projects?
-                    <span class="handle-faq-icon">⌄</span>
-                </div>
-                <div class="handle-faq-answer">
-                    Yes, we offer complete customization including specific lengths, diameters, finishes, and even custom designs. We work closely with architects and designers to create handles that perfectly match project specifications and design themes.
+                <div class="glass-handle-faq-answer">
+                    Stainless steel (304 or 316 grade) offers excellent corrosion resistance and durability. Brass provides a luxury look with natural antimicrobial properties. Aluminum is lightweight and cost-effective. Each material has specific advantages depending on the application, environment, and design requirements.
                 </div>
             </div>
 
-            <div class="handle-faq-item">
-                <div class="handle-faq-question">
-                    What glass thickness are your handles compatible with?
-                    <span class="handle-faq-icon">⌄</span>
-                </div>
-                <div class="handle-faq-answer">
-                    Our handles are designed to be compatible with glass thickness ranging from 6mm to 19mm. We provide appropriate fixing systems and adjustments to ensure secure installation on any glass thickness within this range.
+            <div class="glass-handle-faq-item">
+                <div class="glass-handle-faq-question">
+                    How do I choose the right handle length for my glass door?
+                    <span class="glass-handle-faq-icon">⌄</span>
+                </div>  
+                <div class="glass-handle-faq-answer">
+                    Standard lengths range from 200mm to 400mm. For standard single glass doors, 250-300mm handles work well. For larger doors or double doors, 300-400mm provides better leverage. Consider door width, user comfort, and aesthetic proportion. We offer custom lengths for specific requirements.
                 </div>
             </div>
 
-            <div class="handle-faq-item">
-                <div class="handle-faq-question">
-                    How do you ensure secure installation on glass?
-                    <span class="handle-faq-icon">⌄</span>
+            <div class="glass-handle-faq-item">
+                <div class="glass-handle-faq-question">
+                    Can glass handles be installed on existing glass doors?
+                    <span class="glass-handle-faq-icon">⌄</span>
                 </div>
-                <div class="handle-faq-answer">
-                    Our handles come with specialized glass clamping systems that distribute pressure evenly without stressing the glass. We use high-quality rubber gaskets and precision-machined components to ensure secure, vibration-free installation that maintains glass integrity.
+                <div class="glass-handle-faq-answer">
+                    Yes, most glass handles can be retrofitted to existing glass doors with proper drilling and installation. We provide installation templates and guidance. For tempered glass, special diamond-tipped drill bits are required. Professional installation is recommended for optimal results and safety.
+                </div>
+            </div>
+
+            <div class="glass-handle-faq-item">
+                <div class="glass-handle-faq-question">
+                    What maintenance do glass handles require?
+                    <span class="glass-handle-faq-icon">⌄</span>
+                </div>
+                <div class="glass-handle-faq-answer">
+                    Regular cleaning with mild soap and water is sufficient. Avoid abrasive cleaners that can damage finishes. For stainless steel, occasional polishing maintains shine. Brass may develop a natural patina over time which can be preserved or polished based on preference. Our handles are designed for minimal maintenance.
                 </div>
             </div>
         </div>
-        <button class="handle-faq-btn">View All FAQs</button>
+        <button class="glass-handle-faq-btn">View All FAQs</button>
     </section>
+
+
+    
+
+
 
     <script>
-        function handleProdOpenPopup(title, desc, img){
-            document.getElementById("handleProdPopupTitle").innerText = title;
-            document.getElementById("handleProdPopupDesc").innerText = desc;
-            document.getElementById("handleProdPopupImg").src = img;
-            document.getElementById("handleProdPopup").classList.add("active");
+        function glassHandleProdOpenPopup(title, desc, img){
+            document.getElementById("glassHandleProdPopupTitle").innerText = title;
+            document.getElementById("glassHandleProdPopupDesc").innerText = desc;
+            document.getElementById("glassHandleProdPopupImg").src = img;
+            document.getElementById("glassHandleProdPopup").classList.add("active");
         }
 
-        function handleProdClosePopup(){
-            document.getElementById("handleProdPopup").classList.remove("active");
+        function glassHandleProdClosePopup(){
+            document.getElementById("glassHandleProdPopup").classList.remove("active");
         }
 
-        const handleFaqItems = document.querySelectorAll(".handle-faq-item");
-        handleFaqItems.forEach(item => {
+        const glassHandleFaqItems = document.querySelectorAll(".glass-handle-faq-item");
+        glassHandleFaqItems.forEach(item => {
             item.addEventListener("click", () => {
-                handleFaqItems.forEach(i => {
+                glassHandleFaqItems.forEach(i => {
                     if(i !== item){
                         i.classList.remove("active");
                     }
@@ -1102,5 +1672,99 @@
                 item.classList.toggle("active");
             });
         });
+
+ 
+const glassHandleProducts = [
+  {
+    img:"slim-partition/8.jpg",
+    title:"Stainless Steel Glass Handle",
+    category:"Architectural Hardware",
+    price:"Custom Quote",
+    rating:"★★★★★ (4.9)",
+    desc:"Premium stainless steel glass handle with corrosion-resistant finish. Features ergonomic design for comfortable grip and elegant appearance.",
+    sizes:["200mm","250mm","300mm","Custom"],
+    activeSize:"Custom",
+    colors:["#c6a98c","#ffffff","#1e90ff"]
+  },
+  {
+    img:"slim-partition/9.jpg",
+    title:"Brass Glass Handle",
+    category:"Luxury Hardware",
+    price:"Custom Quote",
+    rating:"★★★★☆ (4.7)",
+    desc:"Elegant brass handle with antique finish. Perfect for luxury interiors and high-end architectural projects.",
+    sizes:["200mm","250mm","300mm"],
+    activeSize:"250mm",
+    colors:["#c6a98c","#1e90ff"]
+  },
+  {
+    img:"slim-partition/10.jpg",
+    title:"Aluminum Glass Handle",
+    category:"Modern Hardware",
+    price:"Custom Quote",
+    rating:"★★★★★ (5.0)",
+    desc:"Lightweight aluminum handle with contemporary design. Features excellent durability and modern aesthetic appeal.",
+    sizes:["200mm","250mm","300mm"],
+    activeSize:"300mm",
+    colors:["#c6a98c","#ffffff"]
+  },
+  {
+    img:"slim-partition/11.jpg",
+    title:"Matte Black Glass Handle",
+    category:"Contemporary Design",
+    price:"Custom Quote",
+    rating:"★★★★☆ (4.8)",
+    desc:"Modern matte black finish handle for contemporary interiors. Features slip-resistant texture and minimalist design.",
+    sizes:["250mm","300mm","Custom"],
+    activeSize:"300mm",
+    colors:["#000000","#ffcc00"]
+  },
+  {
+    img:"slim-partition/12.jpg",
+    title:"Mirror Finish Handle",
+    category:"Premium Hardware",
+    price:"Custom Quote",
+    rating:"★★★★☆ (4.6)",
+    desc:"High-polish mirror finish handle for luxury applications. Creates elegant reflections and premium appearance.",
+    sizes:["200mm","250mm","Custom"],
+    activeSize:"Custom",
+    colors:["#ffffff","#1e90ff"]
+  }
+];
+
+function changeGlassHandleProduct(el){
+  const p = glassHandleProducts[el.dataset.index];
+
+  document.getElementById("glassHandleMainImg").src = p.img;
+  document.getElementById("glassHandleTitle").innerText = p.title;
+  document.getElementById("glassHandleCategory").innerText = p.category;
+  document.getElementById("glassHandlePrice").innerText = p.price;
+  document.getElementById("glassHandleRating").innerText = p.rating;
+  document.getElementById("glassHandleDesc").innerText = p.desc;
+
+  const sizesBox = document.getElementById("glassHandleSizes");
+  sizesBox.innerHTML = "<strong>Length:</strong><br>";
+  p.sizes.forEach(s=>{
+    const span = document.createElement("span");
+    span.innerText = s;
+    if(s === p.activeSize) span.classList.add("active");
+    sizesBox.appendChild(span);
+  });
+
+  const colorBox = document.getElementById("glassHandleColors");
+  colorBox.innerHTML = "<strong>Finish:</strong><br>";
+  p.colors.forEach(c=>{
+    const span = document.createElement("span");
+    span.style.background = c;
+    colorBox.appendChild(span);
+  });
+
+  document.querySelectorAll(".glass-handle-thumbs img")
+    .forEach(img=>img.classList.remove("active"));
+  el.classList.add("active");
+}
+
+
+
     </script>
 <?php include "footer.php"?>
