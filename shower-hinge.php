@@ -1,5 +1,7 @@
-<?php include "header.php"?>
-    
+<?php $page_title = "Shower Hinge manufacturer in india";
+$description = "As a reputed Shower Hinge manufacturer in India we specialize in producing premium-quality hinges that blend exceptional functionality with sleek design for modern bathroom spaces. Our shower hinges are manufactured with great precision to ensure smooth door movement, long-lasting durability";
+$keyword = "Shower Hinge manufacturers in India,Shower Hinge supplier in India,Shower Hinge exporter in India, Best Shower Hinge manufacturers in India, Top Shower Hinge manufacturers in India, best Shower Hinge supplier in India, Top Shower Hinge supplier India, best Shower Hinge exporter in India, Top Shower Hinge exporter in india,Shower Hinge manufacturers,Best Shower Hinge manufacturers,Top Shower Hinge manufacturers, Shower Hinge supplier,Best Shower Hinge supplier, Top Shower Hinge supplier,Shower Hinge exporter,Best Shower Hinge exporter,Top Shower Hinge exporter";
+include('header.php') ?>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <style>

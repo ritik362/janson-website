@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php $page_title = "floor springs manufacturer in india";
+$description = "As one of the leading floor springs manufacturer in india, we specialize in the production of high-quality door control systems so as to combine functionality, durability, and modern aesthetics in one. Our floor springs are designed with precise regard to ensure smooth and effortless";
+$keyword = "Floor Springs manufacturers in India,Floor Springs supplier in India,Floor Springs exporter in India, Best Floor Springs manufacturers in India, Top Floor Springs manufacturers in India, best Floor Springs supplier in India, Top Floor Springs supplier India, best Floor Springs exporter in India, Top Floor Springs exporter in india,Floor Springs manufacturers,Best Floor Springs manufacturers,Top Floor Springs manufacturers, Floor Springs supplier,Best Floor Springs supplier, Top Floor Springs supplier,Floor Springs exporter,Best Floor Springs exporter,Top Floor Springs exporter";
+include('header.php') ?>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 

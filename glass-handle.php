@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php $page_title = "Glass Handle manufacturers in india";
+$description = "As one of the leading Glass Handle manufacturers in india we pride ourselves on offering a premium range of door and partition handles that marry superior functionality with refined aesthetics. We truly design our glass handles with precision and elegance, ensuring that ";
+$keyword = "Glass Handle manufacturers in India,Glass Handle supplier in India,Glass Handle exporter in India, Best Glass Handle manufacturers in India, Top Glass Handle manufacturers in India, best Glass Handle supplier in India, Top Glass Handle supplier India, best Glass Handle exporter in India, Top Glass Handle exporter in india,Glass Handle manufacturers,Best Glass Handle manufacturers,Top Glass Handle manufacturers, Glass Handle supplier,Best Glass Handle supplier, Top Glass Handle supplier,Glass Handle exporter,Best Glass Handle exporter,Top Glass Handle exporter";
+include('header.php') ?>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 

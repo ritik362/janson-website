@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Janson exporters | Architectural Fittings & Solutions</title>
+    <title> <?php echo isset($page_title) ? $page_title : 'Glass & Architectural Hardware Manufacturers in India | Sliding, Patch, Shower & Fittings'; ?> </title>
+
+<meta name="description" content="  <?php echo isset($description) ? $description : 'Leading manufacturers and suppliers of glass partitions, sliding systems, shower fittings, patch fittings, spider fittings, floor springs, telescopic channels, and architectural hardware in India. Trusted quality, modern design, and durable solutions for residential and commercial projects.'; ?>">
+<meta name="keywords" content="<?php echo isset($keyword) ? $keyword : 'Glass hardware manufacturers in India,Glass fittings manufacturers in India,Sliding Partition manufacturers in India,Glass Partition manufacturers in India,Patch Fitting manufacturers in India,Spaider Fitting manufacturers in India,Shower Hinge manufacturers in India,Glass Handle manufacturers in India,Floor Springs manufacturers in India,Telescopic Channel manufacturers in India,Architectural hardware supplier India,Glass fittings exporter India'; ?>">
+<link rel="canonical" href="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="dee.css">

@@ -23,7 +23,8 @@
                         <li><a href="#">Products</a></li>
                         <li><a href="#">Industries</a></li>
                         <li><a href="#">Sustainability</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="location.php">Globel</a></li>
                     </ul>
                 </div>
 

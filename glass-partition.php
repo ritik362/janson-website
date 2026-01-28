@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php $page_title = "Glass Partitions manufacturer in india";
+$description = "As one of the leading Glass Partitions manufacturer in india, we specialize in the fabrication of modern, functional, and aesthetically refined partition systems that redefine interior spaces with elegance and transparency. Our glass partitions are designed ";
+$keyword = "Glass Partitions manufacturers in India,Glass Partitions supplier in India,Glass Partitions exporter in India, Best Glass Partitions manufacturers in India, Top Glass Partitions manufacturers in India, best Glass Partitions supplier in India, Top Glass Partitions supplier India, best Glass Partitions exporter in India, Top Glass Partitions exporter in india,Glass Partitions manufacturers,Best Glass Partitions manufacturers,Top Glass Partitions manufacturers, Glass Partitions supplier,Best Glass Partitions supplier, Top Glass Partitions supplier,Glass Partitions exporter,Best Glass Partitions exporter,Top Glass Partitions exporter";
+include('header.php') ?>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 

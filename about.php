@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php $page_title = "About Us | Trusted Glass Hardware & Architectural Fittings Manufacturers in India";
+$description = "Learn more about our expertise as a leading manufacturer of glass partitions, sliding systems, shower fittings, patch fittings, spider fittings, floor springs, and architectural hardware in India. Committed to quality, innovation, and precision engineering.";
+$keyword = "About glass fittings company India,Architectural hardware manufacturers India,Glass Partition company India,Sliding system manufacturers India,Patch Fitting company India,Shower fittings manufacturers India,Glass hardware exporters India,Premium glass fittings India";
+include('header.php') ?>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">

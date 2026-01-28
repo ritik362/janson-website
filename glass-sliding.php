@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php $page_title = "Glass Sliding manufacturers in India";
+$description = "As one of the leading Glass Sliding manufacturers in India, we specialize in designing and producing elegant, durable, and innovative sliding systems that enhance the aesthetics and functionality of modern interiors. Our glass sliding systems are engineered to ensure smooth";
+$keyword = "Glass Sliding manufacturers in India,Glass Sliding supplier in India,Glass Sliding exporter in India, Best Glass Sliding manufacturers in India, Top Glass Sliding manufacturers in India, best Glass Sliding supplier in India, Top Glass Sliding supplier India, best Glass Sliding exporter in India, Top Glass Sliding exporter in india,Glass Sliding manufacturers,Best Glass Sliding manufacturers,Top Glass Sliding manufacturers, Glass Sliding supplier,Best Glass Sliding supplier, Top Glass Sliding supplier,Glass Sliding exporter,Best Glass Sliding exporter,Top Glass Sliding exporter";
+include('header.php') ?>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 

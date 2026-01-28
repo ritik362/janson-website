@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php $page_title = "Spaider Fitting manufacturers in India";
+$description = "As one of the leading Spaider Fitting manufacturers in india, we specialize in designing and producing high-performance glass façade fittings that embody excellent structural strength combined with architectural elegance. Our Spaider fittings are precisely engineered to provide both strong and stable support";
+$keyword = "Spaider Fitting manufacturers in India,Spaider Fitting supplier in India,Spaider Fitting exporter in India, Best Spaider Fitting manufacturers in India, Top Spaider Fitting manufacturers in India, best Spaider Fitting supplier in India, Top Spaider Fitting supplier India, best Spaider Fitting exporter in India, Top Spaider Fitting exporter in india,Spaider Fitting manufacturers,Best Spaider Fitting manufacturers,Top Spaider Fitting manufacturers, Spaider Fitting supplier,Best Spaider Fitting supplier, Top Spaider Fitting supplier,Spaider Fitting exporter,Best Spaider Fitting exporter,Top Spaider Fitting exporter";
+include('header.php') ?>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 

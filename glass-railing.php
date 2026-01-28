@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php $page_title = "Glass Railing Manufacturer in India";
+$description = "We are a leading Glass Railing manufacturer in India, offering premium quality, durable, and stylish glass railings for residential, commercial, and industrial spaces. Trusted supplier and exporter of top-quality glass railing solutions.";
+$keyword = "Glass Railing manufacturer in India, Glass Railing supplier in India, Glass Railing exporter in India,Best Glass Railing manufacturer in India,Top Glass Railing manufacturer in India,Best Glass Railing supplier in India,Top Glass Railing supplier in India,Best Glass Railing exporter in India,Top Glass Railing exporter in India,Glass Railing manufacturer,Glass Railing supplier , Glass Railing exporter,Top Glass Railing exporter, Glass Balustrade manufacturer, Stylish Glass Railings, Durable Glass Railings";
+include('header.php')?>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 

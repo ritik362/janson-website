@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php $page_title = "Shower Partitions manufacturer in india";
+$description = "As one of the leading manufacturers of Shower Partitions, we design and manufacture stylish, durable, and functional shower screens to add a touch of sophistication to modern bathrooms. Our shower partitions are designed with precision";
+$keyword = "Shower Partitions manufacturers in India,Shower Partitions supplier in India,Shower Partitions exporter in India, Best Shower Partitions manufacturers in India, Top Shower Partitions manufacturers in India, best Shower Partitions supplier in India, Top Shower Partitions supplier India, best Shower Partitions exporter in India, Top Shower Partitions exporter in india,Shower Partitions manufacturers,Best Shower Partitions manufacturers,Top Shower Partitions manufacturers, Shower Partitions supplier,Best Shower Partitions supplier, Top Shower Partitions supplier,Shower Partitions exporter,Best Shower Partitions exporter,Top Shower Partitions exporter";
+include('header.php') ?>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 

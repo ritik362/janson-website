@@ -1,4 +1,7 @@
-<?php include "header.php" ?>
+<?php $page_title = "Sliding Partition manufacturers in india";
+$description = "As one of the leading Sliding Partition manufacturers in India, we specialize in crafting innovative, space-efficient, and aesthetically pleasing partition systems that define modern interior flexibility. Our sliding partitions have been designed to offer seamless space division";
+$keyword = "Sliding Partition manufacturers in India,Sliding Partition supplier in India,Sliding Partition exporter in India, Best Sliding Partition manufacturers in India, Top Sliding Partition manufacturers in India, best Sliding Partition supplier in India, Top Sliding Partition supplier India, best Sliding Partition exporter in India, Top Sliding Partition exporter in india,Sliding Partition manufacturers,Best Sliding Partition manufacturers,Top Sliding Partition manufacturers, Sliding Partition supplier,Best Sliding Partition supplier, Top Sliding Partition supplier,Sliding Partition exporter,Best Sliding Partition exporter,Top Sliding Partition exporter";
+include('header.php') ?>
 
 <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->

@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php $page_title = "Slim Partitions manufacturer in india";
+$description = "As a reputed Slim Partitions manufacturer in India, we pride ourselves on offering modern, sleek, and durable partition systems that transform any interior into an elegant and functional space. Our slim partitions are precision-made";
+$keyword = "Slim Partitions manufacturers in India,Slim Partitions supplier in India,Slim Partitions exporter in India, Best Slim Partitions manufacturers in India, Top Slim Partitions manufacturers in India, best Slim Partitions supplier in India, Top Slim Partitions supplier India, best Slim Partitions exporter in India, Top Slim Partitions exporter in india,Slim Partitions manufacturers,Best Slim Partitions manufacturers,Top Slim Partitions manufacturers, Slim Partitions supplier,Best Slim Partitions supplier, Top Slim Partitions supplier,Slim Partitions exporter,Best Slim Partitions exporter,Top Slim Partitions exporter";
+include('header.php') ?>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 

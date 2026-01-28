@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php $page_title = "Telescopic Channel manufacturer in India";
+$description = "As a trusted Telescopic Channel manufacturer, we specialize in crafting precision-engineered drawer and sliding mechanisms that deliver smooth, silent, and durable motion for furniture and cabinetry. Our telescopic channels are designed to provide maximum";
+$keyword = "Telescopic Channel manufacturers in India,Telescopic Channel supplier in India,Telescopic Channel exporter in India, Best Telescopic Channel manufacturers in India, Top Telescopic Channel manufacturers in India, best Telescopic Channel supplier in India, Top Telescopic Channel supplier India, best Telescopic Channel exporter in India, Top Telescopic Channel exporter in india,Telescopic Channel manufacturers,Best Telescopic Channel manufacturers,Top Telescopic Channel manufacturers, Telescopic Channel supplier,Best Telescopic Channel supplier, Top Telescopic Channel supplier,Telescopic Channel exporter,Best Telescopic Channel exporter,Top Telescopic Channel exporter";
+include('header.php') ?>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 

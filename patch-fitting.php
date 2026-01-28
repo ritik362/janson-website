@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php $page_title = "Patch Fitting manufacturer in india";
+$description = "As a reputed Patch Fitting manufacturer in India we specialize in delivering high-quality architectural hardware solutions designed to enhance the functionality, safety, and aesthetics of modern glass installations. Our patch fittings have been specially engineered to provide secure and seamless connections for frameless glass doors and partitions";
+$keyword = "Patch Fitting manufacturers in India,Patch Fitting supplier in India,Patch Fitting exporter in India, Best Patch Fitting manufacturers in India, Top Patch Fitting manufacturers in India, best Patch Fitting supplier in India, Top Patch Fitting supplier India, best Patch Fitting exporter in India, Top Patch Fitting exporter in india,Patch Fitting manufacturers,Best Patch Fitting manufacturers,Top Patch Fitting manufacturers, Patch Fitting supplier,Best Patch Fitting supplier, Top Patch Fitting supplier,Patch Fitting exporter,Best Patch Fitting exporter,Top Patch Fitting exporter";
+include('header.php') ?>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 

@@ -1,4 +1,7 @@
-<?php include "header.php"?>
+<?php $page_title = "Hydraulic hinge manufacturer in india";
+$description = "As one of the major Hydraulic Hinge manufacturers, we specialize in the production of high-quality hinges engineered to assure smooth, controlled, and reliable door movements for various architectural and interior applications. Our hydraulic hinges";
+$keyword = "Hydraulic Hinge manufacturer in India, Hydraulic Hinge supplier in India, Hydraulic Hinge exporter in India, Best Hydraulic Hinge manufacturer in India, Top Hydraulic Hinge manufacturer in India, Best Hydraulic Hinge supplier in India, Top Hydraulic Hinge supplier in India, Best Hydraulic Hinge exporter in India, Top Hydraulic Hinge exporter in India, Hydraulic Hinge manufacturers, Best Hydraulic Hinge manufacturers, Top Hydraulic Hinge manufacturers, Hydraulic Hinge supplier, Best Hydraulic Hinge supplier, Top Hydraulic Hinge supplier, Hydraulic Hinge exporter, Best Hydraulic Hinge exporter, Top Hydraulic Hinge exporter";
+include('header.php') ?>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
